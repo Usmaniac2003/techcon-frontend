@@ -3,10 +3,12 @@ import { toast } from "react-toastify";
 import { getApi } from "../../../services/api";
 import Skeleton from "react-loading-skeleton";
 import PreviewEvent from "./EventPreview";
+import Filter from "./Filter";
 
 const EventsData = ({ data }) => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [cities, setCities] = useState([])
   const [previewModal, setPreviewModal] = useState({
     isOpen: false, 
     data: {}
@@ -28,10 +30,30 @@ const EventsData = ({ data }) => {
     }
   };
 
+    const getCities = async () => {
+    try {
+      setLoading(true);
+      const response = await getApi(`/api/events/cities`);
+      if (response.status === 200) {
+        setCities(response.data?.data || []);
+      } else {
+        toast.error("Failed to fetch cities");
+      }
+      setLoading(false);
+    } catch (error) {
+      console.log(error);
+      toast.error("Something failed");
+    }
+  };
+
+
   useEffect(() => {
     if(data !== "Overview") {
         getEvents();
+        getCities(); 
     }
+
+    
   }, [data?._id]);
   return (
     <div className="px-6 py-12 bg-gray-50">
@@ -39,6 +61,8 @@ const EventsData = ({ data }) => {
         {data?.name} Events
       </h1>
       <p className="text-gray-600 mb-8">{data?.description}</p>
+
+      <Filter categoryId={data?._id} onResults={setEvents} cities={cities}/>
       {loading ? (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Skeleton height="230px" />

@@ -1,13 +1,6 @@
-import React, { useState, lazy, Suspense, useEffect } from "react";
-import { ChakraProvider, Spinner, Box } from "@chakra-ui/react";
-import {
-  FaMusic,
-  FaTheaterMasks,
-  FaFootballBall,
-  FaUsers,
-  FaBook,
-  FaGlassCheers,
-} from "react-icons/fa"; // Import icons
+import { useState, useEffect } from "react";
+import { ChakraProvider, Box } from "@chakra-ui/react";
+import { FaMusic, FaFootballBall, FaUsers } from "react-icons/fa"; // Import icons
 import { toast } from "react-toastify";
 import { getApi } from "../../services/api";
 import EventsData from "./components/EventsData";
@@ -42,7 +35,7 @@ const App = () => {
     <ChakraProvider>
       <div className="flex h-screen">
         {/* Sidebar */}
-        <div className="w-1/6 bg-black text-white p-4">
+        <div style={{zIndex: 500}} className="w-1/6 fixed top-0 left-0 h-screen bg-black text-white p-4">
           <ul className="space-y-2">
             {categories.map((category) => (
               <li
@@ -60,9 +53,10 @@ const App = () => {
             ))}
           </ul>
         </div>
+        <div className="w-1/6"></div>
 
         {/* Main Content */}
-        <div className="flex-1 bg-gray-100 p-6">
+        <div className="flex-1 bg-gray-100 p-6 ">
           <Box className="text-center">
             {selectedCategory === "Overview" ? (
              <Overview/>
