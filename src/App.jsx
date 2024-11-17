@@ -22,7 +22,7 @@ export let load = null;
 
 const App = () => {
   const { authModal } = useStateContext();
-  const { USER, setUSER, setADDRESS, setCOUNTRY } = useAuthContext();
+  const { setUSER, setADDRESS, setCOUNTRY } = useAuthContext();
   const [appLoading, setAppLoading] = useState(true);
 
   const loadMaps = useJsApiLoader({

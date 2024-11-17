@@ -8,28 +8,19 @@ import {
   ModalContent,
   Input,
   CircularProgress,
-  IconButton,
 } from "@chakra-ui/react";
 import { postApi } from "../services/api";
 import { useAuthContext } from "../contexts/AuthContext";
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { toast } from "react-toastify";
 import { useTranslation } from "react-i18next";
-import LocationPicker from "./location/LocationPicker";
-import { BiArrowBack } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
 
 const AuthModal = ({ isOpen, onClose }) => {
   const [screen, setScreen] = useState("signup");
-  const [signupStep, setSignupStep] = useState("first");
   const [signupLoading, setSignupLoading] = useState(false);
   const [loginLoading, setLoginLoading] = useState(false);
-  const [location, setLocation] = useState({
-    lat: null,
-    lng: null,
-    addressText: "",
-  });
+
   const [signupValues, setSignupValues] = useState({
     fullName: "",
     email: "",
@@ -40,7 +31,7 @@ const AuthModal = ({ isOpen, onClose }) => {
   const { t } = useTranslation();
 
   const [loginValues, setLoginValues] = useState({
-    phoneNumber: "",
+    email: "",
     password: "",
   });
 
@@ -50,13 +41,10 @@ const AuthModal = ({ isOpen, onClose }) => {
 
   const handleSignup = async (e) => {
     e.preventDefault();
-    if (signupStep === "second") {
       try {
         setSignupLoading(true);
         const data = {
           ...signupValues,
-          latlng: location?.lat + "," + location?.lng,
-          formattedAddress: location?.addressText,
         };
         const response = await postApi("api/user/signup", data);
         if (response?.status !== 200) {
@@ -77,9 +65,7 @@ const AuthModal = ({ isOpen, onClose }) => {
         toast.error("Something went wrong!");
       }
       setSignupLoading(false);
-    } else {
-      setSignupStep("second");
-    }
+
   };
   const handleSignupChange = (e) => {
     setSignupValues({ ...signupValues, [e.target.name]: e.target.value });
@@ -112,10 +98,6 @@ const AuthModal = ({ isOpen, onClose }) => {
     setLoginLoading(false);
   };
 
-  useEffect(() => {
-    // fetchCurrLocation();
-  }, []);
-
   return (
     <div className="w-screen z-[1000] flex justify-center items-center h-screen fixed top-0 left-0 transition-all backdrop-blur-[1px] bg-[#0000006f]">
       <Modal size={"lg"} isCentered isOpen={isOpen} onClose={onClose}>
@@ -124,66 +106,52 @@ const AuthModal = ({ isOpen, onClose }) => {
           <ModalBody p={8}>
             {screen === "signup" ? (
               <form action="#" onSubmit={handleSignup}>
-                {signupStep === "first" ? (
-                  <div>
-                    <FormControl className="mt-6" isRequired>
-                      <FormLabel>{t("Phone Number")}</FormLabel>
-                      <Input
-                        value={signupValues.phoneNumber}
-                        onInput={handleSignupChange}
-                        name="phoneNumber"
-                        required
-                        type="tel"
-                        placeholder={t("Phone Number")}
-                      />
-                    </FormControl>
-                    <FormControl className="mt-6" isRequired>
-                      <FormLabel>{t("Full Name")}</FormLabel>
-                      <Input
-                        value={signupValues.fullName}
-                        required
-                        onInput={handleSignupChange}
-                        name="fullName"
-                        placeholder={t("Full Name")}
-                      />
-                    </FormControl>
-                    <FormControl className="mt-6" isRequired>
-                      <FormLabel>{t("Email Address")}</FormLabel>
-                      <Input
-                        value={signupValues.email}
-                        name="email"
-                        onInput={handleSignupChange}
-                        required
-                        type="email"
-                        placeholder={t("Email")}
-                      />
-                    </FormControl>
-                    <FormControl className="mt-6" isRequired>
-                      <FormLabel>{t("Password")}</FormLabel>
-                      <Input
-                        name="password"
-                        value={signupValues.password}
-                        onInput={handleSignupChange}
-                        type="password"
-                        placeholder={t("Password")}
-                        required
-                      />
-                    </FormControl>
-                  </div>
-                ) : (
-                  <div>
-                    <IconButton
-                      onClick={() => setSignupStep("first")}
-                      className="my-4"
-                    >
-                      <BiArrowBack />
-                    </IconButton>
-                    <LocationPicker
-                      location={location}
-                      setLocation={setLocation}
+                <div>
+                  <FormControl className="mt-6" isRequired>
+                    <FormLabel>{t("Phone Number")}</FormLabel>
+                    <Input
+                      value={signupValues.phoneNumber}
+                      onInput={handleSignupChange}
+                      name="phoneNumber"
+                      required
+                      type="tel"
+                      placeholder={t("Phone Number")}
                     />
-                  </div>
-                )}
+                  </FormControl>
+                  <FormControl className="mt-6" isRequired>
+                    <FormLabel>{t("Full Name")}</FormLabel>
+                    <Input
+                      value={signupValues.fullName}
+                      required
+                      onInput={handleSignupChange}
+                      name="fullName"
+                      placeholder={t("Full Name")}
+                    />
+                  </FormControl>
+                  <FormControl className="mt-6" isRequired>
+                    <FormLabel>{t("Email Address")}</FormLabel>
+                    <Input
+                      value={signupValues.email}
+                      name="email"
+                      onInput={handleSignupChange}
+                      required
+                      type="email"
+                      placeholder={t("Email")}
+                    />
+                  </FormControl>
+                  <FormControl className="mt-6" isRequired>
+                    <FormLabel>{t("Password")}</FormLabel>
+                    <Input
+                      name="password"
+                      value={signupValues.password}
+                      onInput={handleSignupChange}
+                      type="password"
+                      placeholder={t("Password")}
+                      required
+                    />
+                  </FormControl>
+                </div>
+
                 <Button
                   disabled={signupLoading}
                   className="w-full mt-5"
@@ -196,10 +164,8 @@ const AuthModal = ({ isOpen, onClose }) => {
                 >
                   {signupLoading ? (
                     <CircularProgress color="black" size={6} isIndeterminate />
-                  ) : signupStep === "first" ? (
-                    t("Next")
                   ) : (
-                    t("Signup")
+                    t("Sign Up")
                   )}
                 </Button>
                 <p className="text-center mt-2">
@@ -266,7 +232,6 @@ const AuthModal = ({ isOpen, onClose }) => {
                   {t("New to buildbazm?")}{" "}
                   <span
                     onClick={() => {
-                      setSignupStep("first");
                       setScreen("signup");
                     }}
                     className="text-primary font-bold cursor-pointer"

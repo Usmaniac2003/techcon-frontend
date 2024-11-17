@@ -1,14 +1,6 @@
 import { MenuItem } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
-import {
-  BiUser,
-  BiBook,
-  BiCreditCard,
-  BiGift,
-  BiMap,
-  BiWallet,
-  BiHelpCircle,
-} from "react-icons/bi";
+import { BiUser, BiBook, BiWallet, BiHelpCircle } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 const UserMenuList = ({ handleCloseUserMenu }) => {
@@ -30,21 +22,7 @@ const UserMenuList = ({ handleCloseUserMenu }) => {
       label: t("Bookings"),
       link: "/my-account/bookings",
     },
-    {
-      icon: <BiCreditCard size={18} />,
-      label: t("buildbazm Credits"),
-      link: "/my-account/buildbazm-credits",
-    },
-    // {
-    //   icon: <BiGift size={18} />,
-    //   label: t("Referral Credits"),
-    //   link: "/my-account/referral-credits",
-    // },
-    {
-      icon: <BiMap size={18} />,
-      label: t("Addresses"),
-      link: "/my-account/addresses",
-    },
+ 
     {
       icon: <BiWallet size={18} />,
       label: t("Payment Methods"),

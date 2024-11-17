@@ -52,7 +52,7 @@ const Bookings = () => {
   };
 
   useEffect(() => {
-    fetchData();
+    // fetchData();
   }, []);
 
   return (
