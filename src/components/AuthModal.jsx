@@ -181,14 +181,14 @@ const AuthModal = ({ isOpen, onClose }) => {
             ) : (
               <div>
                 <FormControl className="mt-6" isRequired>
-                  <FormLabel>{t("Phone Number")}</FormLabel>
+                  <FormLabel>{t("Email")}</FormLabel>
                   <Input
-                    value={loginValues.phoneNumber}
+                    value={loginValues.email}
                     required
-                    name="phoneNumber"
+                    name="email"
                     onInput={handleLoginChange}
-                    type="tel"
-                    placeholder={t("Phone Number")}
+                    type="email"
+                    placeholder={t("Email")}
                   />
                 </FormControl>
                 <FormControl className="mt-6" isRequired>

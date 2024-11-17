@@ -13,7 +13,7 @@ const Banner = () => {
       >
         <h1 className="text-3xl text-center">Your Gateway to</h1>
 
-        <div className="flex items-center justify-center">
+        <div className="flex text-center items-center justify-center">
           <h1
             className="text-6xl font-bold text-white relative 
                    neon-effect"
