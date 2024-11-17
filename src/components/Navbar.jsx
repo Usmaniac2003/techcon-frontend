@@ -33,12 +33,12 @@ const Navbar = () => {
 
   const handleChangeCity = (c) => {
     setActiveCity(c._id);
-    localStorage.setItem("xpertfirst_city", c._id);
+    localStorage.setItem("buildbazm_city", c._id);
     document.location.reload();
   };
 
   const deselectCity = () => {
-     localStorage.removeItem("xpertfirst_city");
+     localStorage.removeItem("buildbazm_city");
     location.href = "/";
   }
 

@@ -28,7 +28,7 @@ const Feedbacks = () => {
     return (
       <div className="md:container py-8 md:px-60 mx-auto feedbacks-slider relative">
         <h2 className="text-3xl font-bold mb-6 text-center">
-          What customers say about Xpertfirst
+          What customers say about buildbazm
         </h2>
 
         <Swiper

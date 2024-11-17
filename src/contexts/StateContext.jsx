@@ -21,7 +21,7 @@ const statuses = {
 export default function StateProvider({ children }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeCity, setActiveCity] = useState(
-    localStorage.getItem("xpertfirst_city") || null
+    localStorage.getItem("buildbazm_city") || null
   );
   const isMobile = useMediaQuery("(max-width: 500px)");
   const { i18n } = useTranslation();

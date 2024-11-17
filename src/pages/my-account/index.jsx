@@ -3,7 +3,6 @@
 import { useParams } from "react-router-dom";
 import Profile from "../../components/my-account/Profile";
 import Bookings from "../../components/my-account/Bookings";
-import XpertFirstCredits from "../../components/my-account/XpertFirstCredits";
 import ReferralCredits from "../../components/my-account/ReferralCredits";
 import Addresses from "../../components/my-account/Addresses";
 import PaymentMethods from "../../components/my-account/PaymentMethods";
@@ -16,7 +15,7 @@ const MyAccount = () => {
 const pages = {
     "profile": <Profile/>,
     "bookings": <Bookings/>, 
-    "xpertfirst-credits": <XpertFirstCredits/>, 
+    "buildbazm-credits": <buildbazmCredits/>, 
     "referral-credits": <ReferralCredits/>, 
     "addresses": <Addresses/>, 
     "payment-methods": <PaymentMethods/>, 

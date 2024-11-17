@@ -49,7 +49,7 @@ const PaymentSummary = ({
           }
            {!!paymentSummary?.credit && isLastStep && (
             <div className="flex mb-4 items-center justify-between">
-              <p className="text-[#b3b3b3]">{t('XpertFirst Credit')}</p>
+              <p className="text-[#b3b3b3]">{t('buildbazm Credit')}</p>
               <p>{paymentSummary?.credit} AED</p>
             </div>
           )}

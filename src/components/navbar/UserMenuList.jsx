@@ -14,8 +14,8 @@ import { Link } from "react-router-dom";
 const UserMenuList = ({ handleCloseUserMenu }) => {
   const { t } = useTranslation();
   const handleLogout = () => {
-    localStorage.removeItem("xpertfirst_user");
-    localStorage.removeItem("xpertfirst_city");
+    localStorage.removeItem("buildbazm_user");
+    localStorage.removeItem("buildbazm_city");
     location.href = "/";
   };
 
@@ -32,8 +32,8 @@ const UserMenuList = ({ handleCloseUserMenu }) => {
     },
     {
       icon: <BiCreditCard size={18} />,
-      label: t("Xpertfirst Credits"),
-      link: "/my-account/xpertfirst-credits",
+      label: t("buildbazm Credits"),
+      link: "/my-account/buildbazm-credits",
     },
     // {
     //   icon: <BiGift size={18} />,

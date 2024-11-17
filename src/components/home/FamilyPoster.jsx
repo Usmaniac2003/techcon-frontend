@@ -9,7 +9,7 @@ const FamilyPoster = () => {
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 flex justify-center flex-col md:pl-[10%] bg-[#e1e1e191] text-black p-10">
           <h1 className="text-3xl font-bold mb-4">
-            {t("Xpert First Makes Your Life Easier")}
+            {t("buildbazm Makes Your Life Easier")}
           </h1>
           <p className="text-lg mb-6">
             {t("250+ on-demand services at your fingertips")}

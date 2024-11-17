@@ -35,12 +35,12 @@ const App = () => {
 
   useEffect(() => {
     // fetchProfile();
-    const user = localStorage.getItem("xpertfirst_user");
+    const user = localStorage.getItem("buildbazm_user");
     if (user) {
       setUSER(JSON.parse(user));
     }
 
-    const address = localStorage.getItem("xpertfirst_address");
+    const address = localStorage.getItem("buildbazm_address");
 
     if (address) {
       setADDRESS(JSON.parse(address) || null);
@@ -94,7 +94,7 @@ const App = () => {
     );
   }
 
-  const user = JSON.parse(localStorage.getItem("xpertfirst_user"));
+  const user = JSON.parse(localStorage.getItem("buildbazm_user"));
 
   return (
     <>

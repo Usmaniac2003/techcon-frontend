@@ -25,7 +25,7 @@ const Profile = () => {
       await postApi("api/user/" + USER?._id, values);
       const updatedUser = { ...USER, ...values };
       setUSER(updatedUser);
-      localStorage.setItem("xpertfirst_user", JSON.stringify(updatedUser));
+      localStorage.setItem("buildbazm_user", JSON.stringify(updatedUser));
       toast.success("Profile Updated Successfuly");
     } catch (error) {
       console.log(error);

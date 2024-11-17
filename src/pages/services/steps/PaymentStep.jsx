@@ -142,7 +142,7 @@ const PaymentStep = ({ service }) => {
       )} */}
 
       <div className="mt-4">
-        <h2 className="font-bold text-lg">Add Voucher or XpertFirst credits</h2>
+        <h2 className="font-bold text-lg">Add Voucher or buildbazm credits</h2>
         <div className="mt-5 flex items-center gap-x-3">
           {coupon ? (
             <div className="p-3 pt-6 relative border border-primary bg-secondary rounded-lg w-[180px]">
@@ -175,7 +175,7 @@ const PaymentStep = ({ service }) => {
           )}
           {USER?.credits !== 0 && (
             <div className="border p-3 rounded-lg w-[180px]">
-              <h3 className="text-gray-800">XpertFirst Credit</h3>
+              <h3 className="text-gray-800">buildbazm Credit</h3>
               <h3 className=" text-black mt-2">
                 <span className="text-primary font-bold">{Math.floor(USER?.credits)}</span> credits
               </h3>

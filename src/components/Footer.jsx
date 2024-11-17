@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="md:w-[50%]">
           <img src={Logo} width={130} />
           <p className="mt-3 text-sm text-gray-300 font-light md:w-[70%]">
-            Xpertfirst offers a wide range of on-demand home services, including
+            buildbazm offers a wide range of on-demand home services, including
             cleaning and maintenance, with a focus on providing expertise and
             convenience. With over 250+ verified professionals, they ensure
             trusted and reliable service at competitive prices.
@@ -53,16 +53,16 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex py-8 md:py-0 space-x-6">
-          <a target="_blank" href="https://www.facebook.com/xpertfirst">
+          <a target="_blank" href="https://www.facebook.com/buildbazm">
             <FaFacebookF size={24} />
           </a>
-          <a target="_blank" href="https://x.com/xpertfirstt">
+          <a target="_blank" href="https://x.com/buildbazmt">
             <FaXTwitter size={24} />
           </a>
-          <a target="_blank" href="https://www.instagram.com/xpertfirst">
+          <a target="_blank" href="https://www.instagram.com/buildbazm">
             <FaInstagram size={24} />
           </a>
-          <a target="_blank" href="https://www.tiktok.com/@xpertfirst">
+          <a target="_blank" href="https://www.tiktok.com/@buildbazm">
             <FaTiktok size={24} />
           </a>
         </div>

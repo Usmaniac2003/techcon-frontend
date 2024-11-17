@@ -32,7 +32,7 @@ const Addresses = () => {
   const handleChangeAddress = val => {
     const address = data?.find(addr => addr?._id?.toString() === val); 
     setADDRESS(address); 
-    localStorage.setItem("xpertfirst_address", JSON.stringify(address));
+    localStorage.setItem("buildbazm_address", JSON.stringify(address));
     document.location.reload();
   }
 

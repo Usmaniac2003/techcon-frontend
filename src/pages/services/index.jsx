@@ -137,7 +137,7 @@ const Servicer = () => {
 
         const updatedUser = { ...USER, lastBooking: bookingId, credits: response.data?.credits };
         setUSER(updatedUser);
-        localStorage.setItem("xpertfirst_user", JSON.stringify(updatedUser));
+        localStorage.setItem("buildbazm_user", JSON.stringify(updatedUser));
 
         // navigate("/");
         setFeedbackModal(true);

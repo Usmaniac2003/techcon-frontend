@@ -17,7 +17,7 @@ export default function AuthProvider({ children }) {
       if (addresses.length) {
         setADDRESS(addresses[0]);
         localStorage.setItem(
-          "xpertfirst_address",
+          "buildbazm_address",
           JSON.stringify(addresses[0])
         );
       }
@@ -29,13 +29,13 @@ export default function AuthProvider({ children }) {
 
   // useEffect(() => {
   //   if (ADDRESS) {
-  //     localStorage.setItem("xpertfirst_address", JSON.stringify(ADDRESS));
+  //     localStorage.setItem("buildbazm_address", JSON.stringify(ADDRESS));
   //     document.location.reload();
   //   }
   // }, [ADDRESS]);
 
   useEffect(() => {
-    if (USER?._id && !localStorage.getItem("xpertfirst_address")) {
+    if (USER?._id && !localStorage.getItem("buildbazm_address")) {
       fetchAddresses();
     }
   }, [USER]);

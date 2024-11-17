@@ -69,7 +69,7 @@ const AuthModal = ({ isOpen, onClose }) => {
 
           // Set the user's data
           setUSER(user);
-          localStorage.setItem("xpertfirst_user", JSON.stringify(user));
+          localStorage.setItem("buildbazm_user", JSON.stringify(user));
           onClose();
         }
       } catch (error) {
@@ -102,7 +102,7 @@ const AuthModal = ({ isOpen, onClose }) => {
 
         // Set the user's data
         setUSER(user);
-        localStorage.setItem("xpertfirst_user", JSON.stringify(user));
+        localStorage.setItem("buildbazm_user", JSON.stringify(user));
         onClose();
       }
     } catch (error) {
@@ -263,7 +263,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                   )}
                 </Button>
                 <p className="text-center mt-2">
-                  {t("New to XpertFirst?")}{" "}
+                  {t("New to buildbazm?")}{" "}
                   <span
                     onClick={() => {
                       setSignupStep("first");
