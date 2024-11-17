@@ -1,5 +1,6 @@
 import { Box, Button, Menu, MenuButton, MenuList } from "@chakra-ui/react";
-import Logo from "../assets/logos/full_logo_light.png";
+import Logo from "../assets/logos/full_logo_light.svg";
+import ShortLogo from "../assets/logos/logo.png";
 import AppStore from "../assets/appstore.png";
 import PlayStore from "../assets/playstore.png";
 import { useStateContext } from "../contexts/StateContext";
@@ -20,7 +21,6 @@ const languages = {
   ar: "اردو",
 };
 
-
 const Navbar = () => {
   const { authModal, isMobile, isRTL, activeCity, setActiveCity } =
     useStateContext();
@@ -38,9 +38,9 @@ const Navbar = () => {
   };
 
   const deselectCity = () => {
-     localStorage.removeItem("buildbazm_city");
+    localStorage.removeItem("buildbazm_city");
     location.href = "/";
-  }
+  };
 
   const fetchCities = async () => {
     try {
@@ -62,33 +62,18 @@ const Navbar = () => {
     <div className="shadow-xl sticky top-0 left-0 right-0 z-[999] border-b border-[#ddd] bg-white py-3">
       <div className="md:container md:px-40 px-5 mx-auto flex items-center justify-between">
         <div className="flex items-center w-full">
-          <Link to={"/"}>
+          <Link to={"/"} className="flex items-center space-x-2 ">
+            <img
+              alt=""
+              className="md:w-[50px] object-contain"
+              src={ShortLogo}
+            />
             <img
               alt=""
               className="md:w-[120px] object-contain w-[2000px] "
               src={Logo}
             />
           </Link>
-          <div className="w-[60px]"></div>
-          {!isMobile && (USER) && (
-            <Link to={"/my-account/addresses"}>
-              <Box
-                rounded={"999"}
-                background={"#e6e6e6bf"}
-                paddingY={"8px"}
-                paddingX={"16px"}
-                display={"flex"}
-                overflowX={"hidden"}
-                whiteSpace={"nowrap"}
-                alignItems={"center"}
-                width={"400px"}
-                position={"relative"}
-              >
-                <IoLocationSharp className="absolute" size={20} />
-                <p className="font-bold m-0 ml-6 w-full text-ellipsis select-none overflow-hidden text-gray-400">{ADDRESS?.formattedAddress || <span className="font-normal">Address missing</span>}</p>
-              </Box>
-            </Link>
-          )}
         </div>
         {!isMobile && (
           <div>
@@ -103,52 +88,6 @@ const Navbar = () => {
           </div>
         )}
         <div className="flex items-center navbar">
-          <div className={`mx-6 relative z-[1000]`}>
-            <Menu>
-              <MenuButton padding={0} as={Button}>
-                <div
-                  className={`bg-secondary rounded py-2 ${
-                    !citiesLoading ? "text-primary" : "text-gray-600"
-                  } px-4 flex items-center`}
-                >
-                  <FaDotCircle className={"mr-2"} />
-                  {citiesLoading
-                    ? "Loading.."
-                    : activeCity === null
-                    ? "No City"
-                    : cities.find((c) => c?._id === activeCity)?.name}{" "}
-                </div>
-              </MenuButton>
-
-              <MenuList className="shadow-lg border border-gray-200">
-                <div className="p-2">
-                  <div className="flex pb-3 items-center justify-between">
-                    <p className="font-bold text-md">{t("Select City")}</p>
-                    <FaTimes className="cursor-pointer" onClick={deselectCity}/>
-                  </div>
-                  <div>
-                    {cities.map((c) => {
-                      return (
-                        <div
-                          onClick={() => handleChangeCity(c)}
-                          key={c._id}
-                          className="rounded-lg mb-2 cursor-pointer border p-3 flex items-center "
-                        >
-                          <p>{c.name}</p>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-                {/* <MenuItem>
-                    <div className="flex items-center">
-                      <FaUser className="mr-2" />
-                      <p>Profile</p>
-                    </div>
-                  </MenuItem> */}
-              </MenuList>
-            </Menu>
-          </div>
           <div className="ml-4">
             <Menu closeOnSelect>
               <MenuButton
@@ -163,7 +102,7 @@ const Navbar = () => {
                 {USER && !isMobile ? (
                   USER?.fullName
                 ) : (
-                  <FaCircleUser className="mr-2" size={22} />
+                  <FaCircleUser className="mr-2 text-primary" size={22} />
                 )}
               </MenuButton>
               <MenuList

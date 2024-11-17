@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,15 +12,15 @@
 }
 
 :root {
-  --primary-color: #FF6347; 
-  --secondary-color: #ff61612e; 
+  --primary-color: #ff1e64; 
+  --secondary-color: #ff1e6445; 
 }
 
 body, html {
   font-size: 16px;
   scroll-behavior: smooth;
   background-color: #fff !important;
-  font-family: "Lato", "Inter", sans-serif !important; 
+  font-family: "Rubik", "Inter", sans-serif !important; 
 }
 
 
@@ -85,79 +85,6 @@ font-size: 24px !important;
   background-position: 0 90%;
 }
 
-/* width */
-.categories-container::-webkit-scrollbar {
-  height: 4px;
-}
-
-/* Track */
-.categories-container::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #ccc;
-  border-radius: 10px;
-}
-
-/* Handle */
-.categories-container::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
-  border-radius: 10px;
-}
-
-
-.swiper-button-next, .swiper-button-prev {
-  text-rendering: auto;
-}
-
-.coupons-slider .swiper {
-  overflow-y: visible !important;
-}
-
-.coupons-slider .swiper-pagination {
-  position: relative !important;
-  margin-top: 20px;
-}
-
-
-.coupons-slider .swiper-pagination.swiper-pagination-bullets {
-  bottom: -25% !important; 
-}
-
-
-
-/* width */
-.searched-items-container::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-.searched-items-container::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-.searched-items-container::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-
-/* @media all and (max-width: 412px) {
-  .home-service-card {
-    width: 220px; 
+.neon-effect {
+     text-shadow: 0 0 5px #ffffff30, 0 0 10px #ffffff0f, 0 0 20px #ffffffe0, 0 0 40px #ffffff00, 0 0 80px #ffffff0a; 
   }
-}
-
-@media all and (max-width: 385px) {
-  .home-service-card {
-    width: 210px; 
-  }
-}
-@media all and (max-width: 368px) {
-  .home-service-card {
-    width: 200px; 
-  }
-}
-
-@media all and (max-width: 348px) {
-  .home-service-card {
-    width: 190px; 
-  }
-} */

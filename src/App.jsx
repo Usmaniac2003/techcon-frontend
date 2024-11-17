@@ -1,7 +1,6 @@
 import Error404 from "./components/Error404";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import ServiceBooking from "./pages/services/index.jsx";
 import "react-toastify/ReactToastify.min.css";
 import "react-loading-skeleton/dist/skeleton.css";
 import AuthModal from "./components/AuthModal.jsx";
@@ -9,8 +8,8 @@ import { useStateContext } from "./contexts/StateContext.jsx";
 import { useEffect, useState } from "react";
 import { useAuthContext } from "./contexts/AuthContext.jsx";
 import { useJsApiLoader } from "@react-google-maps/api";
-import ServiceCategory from "./pages/serviceCategory/index.jsx";
 import Home from "./pages/home/index.jsx";
+import Events from "./pages/events/index.jsx";
 import { CircularProgress } from "@chakra-ui/react";
 import MyAccount from "./pages/my-account/index.jsx";
 import ForgotPassword from "./pages/forgotPassword/index.jsx";
@@ -101,8 +100,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/service/:serviceId" element={<ServiceBooking />} />
-        <Route path="/category/:serviceId" element={<ServiceCategory />} />
+        <Route path="/events" element={<Events />} />
         {user?._id && (
           <Route path="/my-account/:page" element={<MyAccount />} />
         )}

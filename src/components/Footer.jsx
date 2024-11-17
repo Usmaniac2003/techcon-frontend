@@ -2,46 +2,25 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import AppStore from "../assets/appstore.png";
 import PlayStore from "../assets/playstore.png";
 import { FaXTwitter } from "react-icons/fa6";
-import Logo from "../assets/logos/full_logo_light.png";
-import { Button } from "@chakra-ui/react";
-import { useState } from "react";
-import BecomePartnerModal from "./BecomePartnerModal";
+import Logo from "../assets/logos/full_logo_dark.svg";
 
 const Footer = () => {
-  const [loading, setLoading] = useState(false); 
-  const [openPartnerModal, setOpenPartnerModal] = useState(false); 
-
-  const handleOpenPartnerModal = () => {
-    setOpenPartnerModal(true) 
-  }
   return (
     <footer className="bg-[#212121] text-white pt-6">
       <div className="container px-10 md:my-12 my-6 flex md:flex-row flex-col justify-between items-end">
         <div className="md:w-[50%]">
           <img src={Logo} width={130} />
           <p className="mt-3 text-sm text-gray-300 font-light md:w-[70%]">
-            buildbazm offers a wide range of on-demand home services, including
-            cleaning and maintenance, with a focus on providing expertise and
-            convenience. With over 250+ verified professionals, they ensure
-            trusted and reliable service at competitive prices.
+            BookBazm is your all-in-one platform for discovering and booking
+            tickets to events, movies, flights, and buses. Seamlessly blending
+            convenience and excitement, BookBazm offers personalized search
+            options, exclusive promotions, and real-time updates. Whether you're
+            planning a trip, catching the latest blockbuster, or attending a
+            live event, BookBazm transforms your booking experience into a
+            hassle-free delight.
           </p>
         </div>
-        <div
-          className="flex md:flex-row flex-col w-full my-5 md:my-0 items-center h-full justify-center md:justify-end flex-1"
-        >
-          {/* <Input
-            value={email}
-            style={{ width: isMobile ? "100%" : 280, borderColor: "gray" }}
-            onInput={(e) => setEmail(e.target.value)}
-            required
-            className="md:mr-2"
-            type="email"
-            placeholder="Your Email.."
-          /> */}
-          <Button onClick={handleOpenPartnerModal} disabled={loading} className="mt-2 md:mt-0 w-full md:w-max" color={"black"} type="submit">
-            Become a partner
-          </Button>
-        </div>
+        <div className="flex md:flex-row flex-col w-full my-5 md:my-0 items-center h-full justify-center md:justify-end flex-1"></div>
       </div>
       <div className="border-t border-gray-500 py-6 container px-5 mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="flex space-x-4">
@@ -84,9 +63,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-            {openPartnerModal &&
-      <BecomePartnerModal isOpen={openPartnerModal} onClose={() => setOpenPartnerModal(false)}/>
-            }
+   
     </footer>
   );
 };
