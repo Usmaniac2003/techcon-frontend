@@ -35,7 +35,7 @@ const App = () => {
     <ChakraProvider>
       <div className="flex h-screen">
         {/* Sidebar */}
-        <div style={{zIndex: 500}} className="w-1/6 fixed top-0 left-0 h-screen bg-black text-white p-4">
+        <div style={{zIndex: 500}} className="w-1/6 mt-[75px] fixed top-0 left-0 h-screen bg-black text-white p-4">
           <ul className="space-y-2">
             {categories.map((category) => (
               <li
