@@ -1,0 +1,644 @@
+[
+    {
+        "id": 21,
+        "display_name": "Getting Started",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 31,
+                "display_name": "How to Create an Account",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 230,
+                        "question": "How can I go about setting up an account?",
+                        "answer": {
+                            "text": "<p><strong>Welcome to the first step in accessing premium home services with Xpertfirst!</strong></p>\r\n\r\n<p>Creating an account is a simple process that unlocks a world of convenience for all your home service needs. Follow these steps to get started.</p>\r\n\r\n<p><strong>Step-by-Step Guide to Creating Your Account:</strong></p>\r\n\r\n<p><strong>1. Navigate to Profile:</strong><br />\r\nOn the Profile screen, choose the &#39;Log In/ Sign Up&#39; option.</p>\r\n\r\n<p><strong>2. Enter Your Details:</strong><br />\r\nTo create an account with Xpertfirst, you need to provide a valid phone number.</p>\r\n\r\n<p><strong>3. Verify Your Account:</strong><br />\r\nEnter the verification code sent to you via SMS or WhatsApp message.</p>\r\n\r\n<p><strong>4. Complete Your Profile:</strong><br />\r\nFill in any additional information needed to set up your profile such as Full name, email address &amp; address details.</p>\r\n\r\n<p><strong>5. Agree to Terms and Conditions:</strong><br />\r\nRead and accept the terms and conditions.</p>\r\n\r\n<p><strong>6. Confirm Account Creation:</strong><br />\r\nClick &#39;Create Account&#39; to complete the process.</p>\r\n\r\n<p><strong>7. Confirmation Message:</strong><br />\r\nYou will receive a notification confirming the successful creation of your account.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "display_name": "How to Book a Service",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 231,
+                        "question": "What is the process for booking a service?",
+                        "answer": {
+                            "text": "<p><strong>Ready to Book with Xpertfirst?&nbsp;Let&#39;s Get Started! Booking your preferred service on Xpertfirst is straightforward and quick.</strong></p>\r\n\r\n<p>Here&#39;s a simple guide to help you schedule your next home service in no time!</p>\r\n\r\n<p><strong>Steps to Book Your Service:</strong></p>\r\n\r\n<p><strong>1. Select the Service:</strong><br />\r\nBrowse and choose the service you need, like home cleaning, salon services, or healthcare.</p>\r\n\r\n<p><strong>2. Customize Your Service:</strong><br />\r\nPick your preferred date, time, and any specific instructions for the service.</p>\r\n\r\n<p><strong>3. Confirm Your Location:</strong><br />\r\nEnsure your address is correct for the professional to reach you.</p>\r\n\r\n<p><strong>4. Review Your Booking:</strong><br />\r\nDouble-check all the details you&#39;ve entered, including the service, time, and price.</p>\r\n\r\n<p><strong>5. Proceed to Payment:</strong><br />\r\nChoose your payment method and complete the payment details.</p>\r\n\r\n<p><strong>6. Confirm Your Booking:</strong><br />\r\nTap on &#39;Confirm Booking&#39; to finalize your service appointment.</p>\r\n\r\n<p><strong>7. Booking Confirmation:</strong><br />\r\nYou&#39;ll receive a confirmation notification and email with your booking details.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "display_name": "Introduction to Services",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 232,
+                        "question": "Get a broad understanding of the services available",
+                        "answer": {
+                            "text": "<p><strong>Welcome to Xpertfirst: Your Gateway to Effortless Home Services!</strong></p>\r\n\r\n<p>At Xpertfirst, we understand the diverse needs of a modern household. That&#39;s why we offer an extensive range of services to cater to every aspect of home and personal care. From the basic necessities like cleaning to specialized services such as fitness and pet care, we&#39;ve got it all covered. Let&rsquo;s explore the variety of services you can enjoy with Xpertfirst.</p>\r\n\r\n<p><strong>Discover Our Wide Range of Services:<br />\r\nHome Cleaning:</strong><br />\r\nEnjoy pristine living spaces with our comprehensive cleaning services, tailored to meet your every need, from regular tidy-ups to thorough deep cleans.</p>\r\n\r\n<p><strong>Salon &amp; Spa at Home:</strong><br />\r\nTransform your home into a sanctuary of relaxation with our salon and spa services. Indulge in luxurious treatments without stepping out of your comfort zone.</p>\r\n\r\n<p><strong>Healthcare Services:</strong><br />\r\nReceive top-quality healthcare at home from our skilled professionals, offering services like nursing, physiotherapy, and more for your well-being.</p>\r\n\r\n<p><strong>Handyman &amp; Maintenance:</strong><br />\r\nFrom fixing a leaky faucet to comprehensive home maintenance, our skilled handymen are ready to tackle all your repair needs.</p>\r\n\r\n<p><strong>Pest Control &amp; Disinfection:</strong><br />\r\nEnsure a hygienic and safe environment with our pest control and disinfection services, keeping your home free from pests and germs.</p>\r\n\r\n<p><strong>Childcare at Home:</strong><br />\r\nTrust our professional caregivers to provide your little ones with safe, nurturing, and engaging care right in the comfort of your home.</p>\r\n\r\n<p><strong>Fitness at Home:</strong><br />\r\nStay fit and healthy with our in-home fitness services, bringing personalized workout sessions to your doorstep.</p>\r\n\r\n<p><strong>Packers &amp; Movers:</strong><br />\r\nRelocating? Our packers and movers provide hassle-free moving services, ensuring your belongings are safely transported to your new home.</p>\r\n\r\n<p><strong>Pet Care at Home:</strong><br />\r\nGive your furry friends the best care with our in-home pet services, from grooming to pet-sitting, all in the familiar surroundings of your home.</p>\r\n\r\n<p><strong>Why Xpertfirst Stands Out:</strong><br />\r\nVersatility and Quality: A broad spectrum of services delivered by trained professionals.<br />\r\nConvenience and Comfort: Book effortlessly and enjoy services at your preferred time, in your own space.<br />\r\nCustomer-Centric Approach: We&rsquo;re committed to your satisfaction and tailor our services to suit your specific needs.</p>\r\n\r\n<p><strong>Seamless Booking Experience:</strong><br />\r\nScheduling a service with Xpertfirst is quick and easy. Just pick your service, set a time, and relax while we take care of the rest.<br />\r\nXpertfirst is more than just a service provider; we&#39;re your partner in making life easier and more enjoyable. With our wide array of home services, you&rsquo;re sure to find exactly what you need for a comfortable, well-managed home. Experience the convenience and quality that Xpertfirst offers &ndash; your home, our care.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "display_name": "Payment Options",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 233,
+                        "question": "What are the available payment options?",
+                        "answer": {
+                            "text": "<p><strong>Flexible and Secure Payment Solutions for Every Need!</strong></p>\r\n\r\n<p>At Xpertfirst, we understand that convenient and secure payment options are crucial for a smooth service experience. That&#39;s why we offer a variety of payment methods to suit your preferences and ensure hassle-free transactions. Let&#39;s explore the different ways you can pay for services on Xpertfirst.</p>\r\n\r\n<p><strong>Your Payment Options on Xpertfirst:</strong></p>\r\n\r\n<p><strong>Credit/Debit Cards:</strong><br />\r\nUse your Visa, MasterCard, or any other major credit/debit card to pay quickly and securely.<br />\r\nCard details are encrypted for your safety.</p>\r\n\r\n<p><strong>Apple Pay and Google Pay:</strong><br />\r\nFor a quick and secure checkout, use Apple Pay or Google Pay.<br />\r\nThese digital wallets ensure a safe and hassle-free payment process.</p>\r\n\r\n<p><strong>In-App Wallet:</strong><br />\r\nLoad funds into your Xpertfirst wallet for faster checkouts.<br />\r\nWallet balance can be used for all services.</p>\r\n\r\n<p><strong>Cash on Delivery:</strong><br />\r\nPrefer to pay in cash? Opt for Cash on Delivery (COD) and pay directly to the service provider upon completion of the service.</p>\r\n\r\n<p><strong>Promo Codes and Vouchers:</strong><br />\r\nApply Xpertfirst promo codes or vouchers at checkout to enjoy discounts and special offers.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "display_name": "Booking Services with Xpertfirst",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 35,
+                "display_name": "How to Book a Cleaning Session",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 234,
+                        "question": "What are the steps to schedule a cleaning appointment?",
+                        "answer": {
+                            "text": "<p><strong>Effortless Booking for a Sparkling Clean Home</strong></p>\r\n\r\n<p>Looking for a hassle-free way to keep your home clean and tidy? Xpertfirst offers professional cleaning services that can be booked in just a few simple steps. Here&rsquo;s how you can schedule a cleaning session that fits perfectly into your busy schedule.</p>\r\n\r\n<p><strong>Your Guide to Booking a Cleaning Session:</strong></p>\r\n\r\n<p><strong>1. Select &#39;Home Cleaning&#39; Service:</strong><br />\r\nNavigate to our list of services and choose &#39;Home Cleaning&#39;.</p>\r\n\r\n<p><strong>2. Customize Your Cleaning Session:</strong><br />\r\nSpecify the details of your cleaning needs:<br />\r\nTotal number of hours required<br />\r\nAny specific cleaning requests or areas of focus in the instructions section<br />\r\nSelect the date and time that works best for you.</p>\r\n\r\n<p><strong>3. Confirm Your Location:</strong><br />\r\nMake sure your address is updated so our professionals know where to go.</p>\r\n\r\n<p><strong>4. Choose Your professional:</strong><br />\r\nIf you have a preferred cleaner or have been recommended one, select one for your session.</p>\r\n\r\n<p><strong>5. Review and Confirm:</strong><br />\r\nDouble-check all the details of your booking.<br />\r\nLook out for any applicable promotions or discounts.</p>\r\n\r\n<p><strong>6. Proceed to Payment:</strong><br />\r\nSelect your preferred payment method.<br />\r\nConfirm and pay for your booking.</p>\r\n\r\n<p><strong>7. Booking Confirmation:</strong><br />\r\nYou&rsquo;ll receive a confirmation notification and an email with the details of your cleaning session.</p>\r\n\r\n<p><strong>Why Book a Cleaning Session with Xpertfirst?</strong><br />\r\nProfessional Cleaners: Our team of experienced cleaners ensure top-quality service.<br />\r\nFlexible Scheduling: Book a time that suits your schedule, no matter how busy you are.<br />\r\nTailored Cleaning: Customize the cleaning session to meet your specific needs.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 36,
+                "display_name": "How to Reschedule or Cancel a Booking",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 235,
+                        "question": "What is the procedure for changing or canceling a booking?",
+                        "answer": {
+                            "text": "<p><strong>Flexibility at Your Fingertips: Managing Your Bookings Made Easy</strong></p>\r\n\r\n<p>Life is unpredictable, and sometimes you need to change your plans. At Xpertfirst, we understand this, which is why we&rsquo;ve made rescheduling or canceling your service bookings straightforward and hassle-free. Whether your schedule has changed or you&rsquo;ve had a change of plans, here&rsquo;s how you can easily modify your bookings on Xpertfirst.</p>\r\n\r\n<p><strong>Steps to Reschedule or Cancel Your Xpertfirst Booking:</strong></p>\r\n\r\n<p><strong>1 Go to Your Bookings:</strong><br />\r\nNavigate to the &lsquo;Bookings&rsquo; section where you can see all your scheduled services.</p>\r\n\r\n<p><strong>2. Select the Booking to Modify:</strong><br />\r\nChoose the specific booking you wish to reschedule or cancel.</p>\r\n\r\n<p><strong>3. Rescheduling Your Service:</strong><br />\r\nTo reschedule, select Edit This Booking then &lsquo;Reschedule&rsquo; option.<br />\r\nPick a new date and time that suits your schedule and confirm the changes.</p>\r\n\r\n<p><strong>4. Cancelling Your Service:</strong><br />\r\nIf you need to cancel, choose the &lsquo;Cancel Booking&rsquo; option.<br />\r\nYou may be asked to provide a reason for cancellation &ndash; this helps us improve our services. Confirm your cancellation.</p>\r\n\r\n<p><strong>5. Confirmation of Changes:</strong><br />\r\nOnce you reschedule or cancel, you&rsquo;ll receive a confirmation via notification and/or email.</p>\r\n\r\n<p><strong>Things to Keep in Mind:</strong><br />\r\nCancellation Policy: Familiarize yourself with Xpertfirst&rsquo;s cancellation policy to understand any potential charges or fees.<br />\r\nAdvance Notice: Try to reschedule or cancel as early as possible to avoid any inconvenience.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 37,
+                "display_name": "Booking Salon Services at Home",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 236,
+                        "question": "How can I arrange for salon services?",
+                        "answer": {
+                            "text": "<p><strong>Indulge in Salon Luxuries from the Comfort of Your Home!</strong></p>\r\n\r\n<p>Craving a salon pampering session but prefer the comfort of your own home? Xpertfirst brings professional salon services directly to you. Whether you need a haircut, manicure, or a relaxing spa treatment, booking with us is simple and convenient. Here&rsquo;s how you can schedule your next at-home salon service.</p>\r\n\r\n<p><strong>Your Step-by-Step Guide to Booking Salon Services:</strong></p>\r\n\r\n<p><strong>1. Select &#39;Salon Services&#39;:</strong><br />\r\nFrom our list of services, choose &#39;Salon Services at Home&#39;.</p>\r\n\r\n<p><strong>2. Pick Your Preferred Service:</strong><br />\r\nBrowse through our range of salon offerings &ndash; hair care, nail treatments, facials, massages, and more.<br />\r\nChoose the service that suits your current needs.</p>\r\n\r\n<p><strong>3. Customize Your Experience:</strong><br />\r\nSpecify the details like the type of service, any specific style or treatment preferences.<br />\r\nPick a date and time that fits into your schedule seamlessly.</p>\r\n\r\n<p><strong>4. Confirm Your Location:</strong><br />\r\nEnsure your home address is accurate so our professionals can reach you without any hassle.</p>\r\n\r\n<p><strong>5. Review and Confirm Your Booking:</strong><br />\r\nGo over the details of your selected service.<br />\r\nApply any promo codes or vouchers you might have for added savings.</p>\r\n\r\n<p><strong>6. Complete the Payment:</strong><br />\r\nChoose your preferred method of payment.<br />\r\nFinalize your booking by completing the payment process.</p>\r\n\r\n<p><strong>7. Booking Confirmation:</strong><br />\r\nA confirmation notification and email will be sent to you with the details of your salon appointment.</p>\r\n\r\n<p><strong>Why Choose Xpertfirst for At-Home Salon Services?</strong><br />\r\nProfessional and Experienced Staff: Our salon professionals are skilled and experienced in providing top-notch services.<br />\r\nConvenience and Comfort: Enjoy salon-quality services without stepping out of your home.<br />\r\nPersonalized Attention: Get services tailored to your specific requirements and preferences.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 38,
+                "display_name": "Booking Healthcare Services",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 237,
+                        "question": "What is the process for scheduling healthcare services?",
+                        "answer": {
+                            "text": "<p><strong>Your Health, Our Priority: Convenient Healthcare at Your Doorstep!</strong></p>\r\n\r\n<p>In today&#39;s fast-paced world, accessing healthcare services in the comfort of your own home is not just a luxury, it&rsquo;s a necessity. Xpertfirst is here to provide you with professional healthcare services without the need to step outside. From nursing care to physiotherapy, booking is just a few taps away. Here&rsquo;s how to schedule your healthcare services with us.</p>\r\n\r\n<p><strong>Simple Steps to Book Your Healthcare Services:</strong></p>\r\n\r\n<p><strong>1. Select &#39;Healthcare Services&#39;:</strong><br />\r\nFind the &#39;Healthcare Services&#39; option among our range of offerings.</p>\r\n\r\n<p><strong>2. Choose Your Required Service:</strong><br />\r\nBrowse through various healthcare services like nursing, physiotherapy, elderly care, and more.<br />\r\nSelect the service that meets your or your family member&rsquo;s health needs.</p>\r\n\r\n<p><strong>3. Specify Service Details:</strong><br />\r\nProvide details about the healthcare service needed, including any special care requirements or preferences.<br />\r\nChoose a convenient date and time for the appointment.</p>\r\n\r\n<p><strong>4. Confirm Your Location:</strong><br />\r\nMake sure your address is correct so our healthcare professionals can reach you easily.</p>\r\n\r\n<p><strong>5. Review and Confirm Booking:</strong><br />\r\nDouble-check all the provided information and appointment details.<br />\r\nIf you have any, apply promo codes for discounts.</p>\r\n\r\n<p><strong>6. Payment Process:</strong><br />\r\nSelect a payment method that suits you from our secure options.<br />\r\nFinalize your booking by completing the payment.</p>\r\n\r\n<p><strong>7. Booking Confirmation:</strong><br />\r\nReceive a confirmation via notification and email, detailing your healthcare service appointment.</p>\r\n\r\n<p><strong>Why Opt for Xpertfirst&#39;s Healthcare Services?</strong><br />\r\nProfessional Care at Home: Our healthcare professionals are highly qualified and trained to provide the best care.<br />\r\nTailored to Your Needs: Every service is personalized to cater to your specific health requirements.<br />\r\nConvenience and Comfort: Receive essential healthcare services without leaving your home.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "display_name": "Special Requests and Custom Services",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 238,
+                        "question": "How can I make a booking for special requests?",
+                        "answer": {
+                            "text": "<p><strong>Tailoring Our Services to Fit Your Unique Needs!</strong></p>\r\n\r\n<p>At Xpertfirst, we understand that every home and every individual has unique needs. That&#39;s why we offer the flexibility of special requests and custom services, ensuring that our services are not just satisfactory, but perfectly aligned with your specific requirements. Whether it&#39;s a particular way of cleaning, a special home care need, or a unique beauty treatment, we&rsquo;re here to cater to your every wish. Here&#39;s how you can make special requests and book custom services with us.</p>\r\n\r\n<p><strong>How to Add Special Requests and Custom Services:</strong></p>\r\n\r\n<p><strong>1 Choose Your Service:</strong><br />\r\nSelect the service you need, be it cleaning, salon, healthcare, or any other.</p>\r\n\r\n<p><strong>2. Specify Your Requirements:</strong><br />\r\nOnce you&rsquo;ve chosen a service, look for the option to add special requests on the booking details page.<br />\r\nDetail your specific requirements or preferences. This could be anything from eco-friendly cleaning products for your home, hypoallergenic products for your beauty treatment, to specific exercises in your fitness session.</p>\r\n\r\n<p><strong>3. Custom Service Consultation (If Required):</strong><br />\r\nFor more complex or uncommon requests, you might be prompted to have a consultation.<br />\r\nThis can be done over the phone or through a messaging feature in the app with the assigned professional, allowing you to explain your needs in detail.</p>\r\n\r\n<p><strong>Benefits of Special Requests and Custom Services:</strong><br />\r\nPersonalized Experience: Tailor services to match your lifestyle and preferences.<br />\r\nFlexibility: Adapt services to suit unique or changing needs.<br />\r\nSatisfaction Guaranteed: Enjoy services that are exactly what you&rsquo;re looking for.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "display_name": "Managing Your Account",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 41,
+                "display_name": "Managing Payment Methods",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 240,
+                        "question": "How do I update my payment method?",
+                        "answer": {
+                            "text": "<p><strong>Streamlining Your Transactions for a Smoother Experience!</strong></p>\r\n\r\n<p>At Xpertfirst, we understand the importance of having a smooth and secure payment process. That&#39;s why we offer a variety of payment options and make managing them as easy and hassle-free as possible. Whether you&#39;re adding a new credit card, setting up a digital wallet, or removing an outdated payment method, here&rsquo;s how you can manage your payment methods on Xpertfirst efficiently.</p>\r\n\r\n<p><strong>Easy Steps to Manage Your Payment Methods:</strong></p>\r\n\r\n<p><strong>1. Navigate to Payment Settings:</strong><br />\r\nAccess your profile and find the &lsquo;Payment Settings&rsquo; or &lsquo;Payment Methods&rsquo; section.</p>\r\n\r\n<p><strong>2. Adding a New Payment Method:</strong><br />\r\nSelect the option to &lsquo;Add a New Payment Method&rsquo;.<br />\r\nChoose the type of payment method (credit/debit card)<br />\r\nEnter the required details like card number, expiration date, and CVV.<br />\r\nSave the new payment method.</p>\r\n\r\n<p><strong>3. Removing a Payment Method:</strong><br />\r\nTo remove a payment method, select it and then choose the &lsquo;Remove&rsquo; or &lsquo;Delete&rsquo; option.<br />\r\nConfirm the removal.</p>\r\n\r\n<p><strong>4. Setting a Default Payment Method:</strong><br />\r\nYou can set one of your payment methods as the default for quicker checkouts.<br />\r\nSelect your preferred payment method and choose &lsquo;Set as Default&rsquo;.</p>\r\n\r\n<p><strong>Benefits of Managing Your Payment Methods on Xpertfirst:</strong><br />\r\nFlexibility: Add or remove payment methods as per your convenience.<br />\r\nSecurity: All payment information is encrypted and securely stored.<br />\r\nEfficiency: Simplify your booking process with a default payment method.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "display_name": "Updating Account Information",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 239,
+                        "question": "How can I update my information?",
+                        "answer": {
+                            "text": "<p><strong>Keeping Your Xpertfirst Account Up-to-Date Made Easy!</strong></p>\r\n\r\n<p>In a world where change is constant, keeping your account information current is crucial for a seamless service experience. At Xpertfirst, we&rsquo;ve made updating your account details a straightforward process, so you can ensure that all your information stays accurate and up-to-date. Whether it&rsquo;s a new phone number or a change of address, here&rsquo;s how you can quickly update your account information on Xpertfirst.</p>\r\n\r\n<p><strong>Simple Steps to Update Your Account Information:</strong></p>\r\n\r\n<p><strong>1. Access Your Profile:</strong><br />\r\nGo to your profile by tapping on the profile icon or your name at the top of the app&#39;s homepage.</p>\r\n\r\n<p><strong>2. Select &lsquo;Account Settings&rsquo;:</strong><br />\r\nIn your profile, find and select &#39;Edit Profile&rsquo; option for your personal details and &#39;Addresses&#39; to edit the address details.</p>\r\n\r\n<p><strong>3. Update Your Information:</strong><br />\r\nYou can now edit various details such as your name, contact number, email address &amp; address details.<br />\r\nMake the necessary changes to your account information as required.</p>\r\n\r\n<p><strong>4. Save the Changes:</strong><br />\r\nAfter making your edits, ensure to save the changes. Look for a &lsquo;Save&rsquo;, &lsquo;Update&rsquo;, or similar button and tap it.</p>\r\n\r\n<p><strong>Why It&rsquo;s Important to Keep Your Account Updated:</strong><br />\r\nAccurate Service Delivery: Updated address and contact information ensure that our services are delivered efficiently to the right location.<br />\r\nSeamless Communication: Up-to-date contact details mean we can keep you informed about your bookings and our latest offers.<br />\r\nSecure Account: Regularly updating your details, especially passwords, adds an extra layer of security to your account.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "display_name": "Account Security and Privacy",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 241,
+                        "question": "Ensuring the security & privacy of your account",
+                        "answer": {
+                            "text": "<p><strong>Safeguarding Your Information for a Secure Experience!</strong></p>\r\n\r\n<p>In the digital age, the security and privacy of your personal and financial information are paramount. At Xpertfirst, we take the security of your account and the privacy of your data very seriously. We employ robust measures to protect your information and ensure peace of mind. Here&rsquo;s how we prioritize your security and privacy and how you can contribute to keeping your account safe.</p>\r\n\r\n<p><strong>Our Commitment to Your Security and Privacy:</strong></p>\r\n\r\n<p><strong>1. Data Encryption:</strong><br />\r\nWe use advanced encryption technologies to protect your personal and payment information, ensuring it remains confidential and secure.</p>\r\n\r\n<p><strong>2. Regular Security Updates:</strong><br />\r\nOur systems are regularly updated to guard against new threats, keeping your account safe from unauthorized access.</p>\r\n\r\n<p><strong>3. Privacy Policy:</strong><br />\r\nOur comprehensive privacy policy outlines how we collect, use, and protect your data. We are transparent about our data practices and committed to your privacy.</p>\r\n\r\n<p><strong>What to Do If You Suspect a Security Breach:</strong><br />\r\nIf you believe your account has been compromised, contact our customer support immediately. We will take prompt action to secure your account.<br />\r\nYour security and privacy are at the core of everything we do at Xpertfirst. By combining our stringent security measures with your vigilant account management, we can ensure a secure and trustworthy environment for all your service bookings.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 43,
+                "display_name": "Notifications and Communications Preferences",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 242,
+                        "question": "Managing your notification & communication preferences",
+                        "answer": {
+                            "text": "<p><strong>Control at Your Fingertips: Customize Your Notifications!</strong></p>\r\n\r\n<p>Staying informed about your Xpertfirst services is important, but so is having control over how you receive these updates. With Xpertfirst, managing your notification preferences is easy and can be done right from your phone&#39;s settings. Here&rsquo;s how to adjust your notification settings to suit your preferences.</p>\r\n\r\n<p><strong>1. Manage Notifications via Phone Settings:</strong><br />\r\nGo to your phone&rsquo;s main settings.<br />\r\nFind &lsquo;Notifications&rsquo; or a similar option and select the Xpertfirst app.<br />\r\nHere, you can enable or disable notifications entirely.</p>\r\n\r\n<p><strong>2. Email Communication Preferences:</strong><br />\r\nFor email notifications, especially our newsletter, you have the option to unsubscribe.<br />\r\nScroll to the bottom of any Xpertfirst email, and you&rsquo;ll find an &lsquo;Unsubscribe&rsquo; link.<br />\r\nClick this to opt out of email communications, and you will no longer receive our newsletter or promotional emails.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "display_name": "Troubleshooting Login Issues",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 243,
+                        "question": "Addressing problems with login access",
+                        "answer": {
+                            "text": "<p>Encountering login issues can be a hiccup in your Xpertfirst experience. Such issues can prevent you from accessing our services when you need them. Don&#39;t worry, though; resolving these issues is usually straightforward. Below are some common troubleshooting steps. And if you still need help, our customer support team is just a click away.</p>\r\n\r\n<p><strong>Common Troubleshooting Steps for Login Issues:</strong></p>\r\n\r\n<p><strong>1. Check Your Internet Connection:</strong><br />\r\nEnsure you have a stable internet connection. Sometimes, connectivity issues can hinder the login process.</p>\r\n\r\n<p><strong>2. Verify Your Login Credentials:</strong><br />\r\nDouble-check your registered phone number. Typos are often the culprit behind login problems.<br />\r\nFollow the instructions sent to your email to set up a new password.</p>\r\n\r\n<p><strong>3. Update the Xpertfirst App:</strong><br />\r\nMake sure you&rsquo;re using the latest version of the Xpertfirst app. Outdated versions can sometimes cause login issues.</p>\r\n\r\n<p><strong>4. Restart Your Device:</strong><br />\r\nSometimes, simply restarting your device can resolve unexpected glitches.</p>\r\n\r\n<p><strong>Still, Facing Issues? Let Us Help!</strong><br />\r\nIf you&#39;ve tried these steps and are still unable to log in, our customer support team is here to assist you. We understand how important it is for you to access your account and book services seamlessly.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "display_name": "Pricing and Payments",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 45,
+                "display_name": "Pricing Structure Explained",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 244,
+                        "question": "Understanding the pricing structure",
+                        "answer": {
+                            "text": "<p><strong>Transparent and Fair: How We Price Our Services!</strong></p>\r\n\r\n<p>At Xpertfirst, we believe in transparency and fairness when it comes to pricing. Our goal is to offer you high-quality services at reasonable rates, with a clear understanding of how those rates are determined. Here&#39;s a breakdown of our pricing structure, so you know exactly what you&#39;re paying for and why.</p>\r\n\r\n<p><strong>Key Aspects of Xpertfirst&#39;s Pricing Structure:</strong></p>\r\n\r\n<p><strong>1. Service-Based Pricing:</strong><br />\r\nEach service category, be it home cleaning, salon services, or healthcare, has its own set of standard rates.<br />\r\nThe base rate for each service is determined by the type and scope of the service.</p>\r\n\r\n<p><strong>2. Customization Costs:</strong><br />\r\nIf you opt for additional or specialized services beyond the standard offering, such as adding extra professionals/ services or cleaning materials, additional charges will apply.<br />\r\nThese charges are always communicated upfront, so there are no surprises.</p>\r\n\r\n<p><strong>3. Duration and Frequency:</strong><br />\r\nSome services are priced based on duration (e.g., hourly rates for cleaning) or frequency (e.g., regular visits).<br />\r\nLonger durations or more frequent visits typically affect the total cost.</p>\r\n\r\n<p><strong>4. Dynamic Pricing for High Demand:</strong><br />\r\nIn times of high demand, prices may slightly increase by. This dynamic pricing ensures service availability and fair compensation for our professionals. These charges are always communicated upfront as well.</p>\r\n\r\n<p><strong>5. Service Fees:</strong><br />\r\nA nominal service fee is included in the pricing. This fee is dedicated to improving your Xpertfirst experience, including providing exceptional customer service and adding new features.<br />\r\nThe service fee is a small percentage of the total cost and is always shown in the breakdown for transparency.</p>\r\n\r\n<p><strong>7. Discounts and Offers:</strong><br />\r\nWe regularly offer discounts and special promotions, which can be applied during the booking process.</p>\r\n\r\n<p><strong>What You Get for the Price:</strong><br />\r\nQuality Service: Our prices reflect the high standard and reliability of our services.<br />\r\nExperienced Professionals: You are paying for expertise and professionalism.<br />\r\nCustomer Support: Our pricing includes access to customer support for any queries or concerns.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 46,
+                "display_name": "How to Apply Promo Codes",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 245,
+                        "question": "How can I go about redeeming promo codes?",
+                        "answer": {
+                            "text": "<p><strong>Unlock Savings with Every Booking!</strong></p>\r\n\r\n<p>Everyone loves a good deal, and at Xpertfirst, we understand that. Promo codes are a fantastic way to make our services even more accessible and enjoyable. If you&#39;ve got a promo code and are wondering how to use it, here&#39;s a quick guide to help you unlock discounts and save on your next booking.</p>\r\n\r\n<p><strong>Steps to Apply Your Promo Code on Xpertfirst:</strong></p>\r\n\r\n<p><strong>1. Enter the Promo Code:</strong><br />\r\nAs you proceed to the payment section, look for an option labeled &lsquo;Promo Code&rsquo;, &lsquo;Discount Code&rsquo;, or something similar.<br />\r\nEnter your promo code in the designated field. Ensure the code is entered exactly as it appears &ndash; promo codes are often case-sensitive.</p>\r\n\r\n<p><strong>2. Apply the Promo Code:</strong><br />\r\nAfter entering the code, click on &lsquo;Apply&rsquo;, or a similar button to activate the discount.<br />\r\nThe discount should reflect immediately in your booking summary. If it doesn&rsquo;t, check the promo code&rsquo;s terms and conditions to ensure it&rsquo;s valid for your service.</p>\r\n\r\n<p><strong>3. Complete Your Booking:</strong><br />\r\nOnce the discount from the promo code is applied, continue to finalize your booking with the reduced price.</p>\r\n\r\n<p><strong>Things to Keep in Mind When Using Promo Codes:</strong><br />\r\nValidity: Check the expiration date and specific terms of the promo code.<br />\r\nService Specific: Some codes are applicable for specific services only.<br />\r\nOne-Time Use: Many promo codes are designed for one-time use &ndash; use them wisely.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 47,
+                "display_name": "Understanding Invoices",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 246,
+                        "question": "How can I obtain a detailed breakdown of my invoice?",
+                        "answer": {
+                            "text": "<p><strong>A Clear View of Your Service Charges and How to Retrieve Them!</strong></p>\r\n\r\n<p>Understanding and retrieving invoices for your Xpertfirst services is crucial for transparency and clarity in billing. We ensure that every transaction is accompanied by a detailed invoice, outlining every aspect of the charge. If you need an invoice for a past appointment, getting it is straightforward. Here&rsquo;s a guide on how to understand and retrieve your Xpertfirst invoices.</p>\r\n\r\n<p><strong>Breaking Down Your Xpertfirst Invoice:</strong></p>\r\n\r\n<p><strong>1. Service Description:</strong><br />\r\nThis section details the specific service you booked, such as home cleaning, salon services, or healthcare. It includes the date and time of the service.</p>\r\n\r\n<p><strong>2. Pricing Breakdown:</strong><br />\r\nHere, you&#39;ll find the cost of the service you booked. This section breaks down the base rate of the service and any additional charges for custom requests or extended duration.</p>\r\n\r\n<p><strong>3. Discounts or Promo Codes:</strong><br />\r\nIf you&rsquo;ve applied a promo code or there are ongoing discounts, they will be reflected here, showing how much you saved on the original price.</p>\r\n\r\n<p><strong>4. Total Amount:</strong><br />\r\nThis is the final amount you&rsquo;re charged, post any discounts and including service fees and taxes.</p>\r\n\r\n<p><strong>5. Payment Details:</strong><br />\r\nIt shows the mode of payment used for the transaction, like credit/debit card, in-app wallet, etc.</p>\r\n\r\n<p><strong>How to Retrieve an Invoice for Past Appointments:</strong><br />\r\n1. On the home page, select &#39;Bookings&#39; to view your service history.<br />\r\n2. Navigate to the &#39;Past Appointments&#39; page to find your previous bookings.<br />\r\n3. Locate and Select Your Booking:<br />\r\n4. Find the booking for which you need an invoice and click on it.<br />\r\n5. Scroll down slightly and select &#39;Show Receipt&#39; to view your invoice.<br />\r\nBy following these simple steps, you can easily access your invoice for any past appointment without any hassle or delay.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 48,
+                "display_name": "Refunds and Credits Policy",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 247,
+                        "question": "Understand the policy on refunds & credits",
+                        "answer": {
+                            "text": "<p><strong>Ensuring Fairness and Satisfaction in Every Transaction!</strong></p>\r\n\r\n<p>At Xpertfirst, we are committed to providing exceptional services and a positive experience for all our customers. Understanding our refunds and credits policy is important, as it ensures you can navigate situations where a refund or credit might be necessary. Here&#39;s a concise guide on our policy, designed to maintain fairness and customer satisfaction.</p>\r\n\r\n<p><strong>Xpertfirst&rsquo;s Refunds and Credits Policy:</strong></p>\r\n\r\n<p><strong>1. Eligibility for Refunds:</strong><br />\r\nRefunds are typically processed in cases of service cancellations or billing errors.<br />\r\nThe eligibility for a refund depends on the specific circumstances of each case, aligning with our terms and conditions.</p>\r\n\r\n<p><strong>2. Processing Refunds:</strong><br />\r\nService Cancellation: If a service is canceled under our cancellation policy terms, a refund will be initiated.<br />\r\nBilling Errors: If there are any discrepancies in billing, customers should contact our support team immediately.</p>\r\n\r\n<p><strong>3. Refund Method:</strong><br />\r\nRefunds are usually processed using the original payment method.<br />\r\nThe processing time for refunds may vary depending on the payment method and your bank policy but usually between 5-14 days.</p>\r\n\r\n<p><strong>4. Issuing Credits:</strong><br />\r\nIn some cases, instead of a refund, Xpertfirst may offer credits that can be used for future bookings.<br />\r\nCredits will be added to your Xpertfirst account and can be applied easily to your next service.</p>\r\n\r\n<p><strong>When to Contact Xpertfirst Customer Support:</strong><br />\r\nIf you are unsure whether your situation qualifies for a refund or credit.<br />\r\nFor assistance in processing a refund or credit request.<br />\r\nFor any queries related to our refunds and credits policy.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 49,
+                "display_name": "Payment Troubleshooting",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 248,
+                        "question": "What should I do if I encounter a problem with my payment?",
+                        "answer": {
+                            "text": "<p><strong>Smooth Transactions for a Hassle-Free Experience!</strong></p>\r\n\r\n<p>While Xpertfirst strives to provide a seamless booking and payment experience, we understand that sometimes you might encounter issues with transactions. Payment troubleshooting is essential to ensure that your booking process is smooth and stress-free. Here&#39;s a guide to help you resolve common payment issues quickly and efficiently.</p>\r\n\r\n<p><strong>Common Payment Issues and How to Resolve Them:</strong></p>\r\n\r\n<p><strong>1. Payment Declined:</strong><br />\r\nCheck Card Details: Ensure all card details entered are correct, including card number, expiration date, and CVV.<br />\r\nVerify Card Validity: Confirm that your card is still valid and has not expired.<br />\r\nContact Your Bank: Sometimes payments are declined due to bank restrictions. Contact your bank to check if they are blocking the transaction.</p>\r\n\r\n<p><strong>2. Error Messages During Payment:</strong><br />\r\nInternet Connection: Confirm you have a stable internet connection as interruptions can cause transaction failures.<br />\r\nUpdate Xpertfirst App: Make sure you&rsquo;re using the latest version of the Xpertfirst app. Outdated versions can sometimes lead to errors.</p>\r\n\r\n<p><strong>3. Double Charged:</strong><br />\r\nCheck Your Account Statements: Sometimes transactions may appear as duplicates, but only one charge is actually processed.<br />\r\nContact Customer Support: If you are indeed double charged, reach out to Xpertfirst customer support with your transaction details for assistance.</p>\r\n\r\n<p><strong>4. Promo Code Not Working:</strong><br />\r\nCheck Code Validity: Ensure the promo code is valid and has not expired.<br />\r\nRead Terms and Conditions: Some codes are service-specific or have usage terms. Ensure your booking aligns with these terms.</p>\r\n\r\n<p><strong>5. Trouble Adding New Payment Method:</strong><br />\r\nRe-enter Details: Carefully re-enter your payment method details, ensuring all information is correct.<br />\r\nAlternate Payment Method: Try adding a different card or payment method.</p>\r\n\r\n<p><strong>When to Contact Xpertfirst Customer Support:</strong><br />\r\nIf you&rsquo;ve tried the above steps and still face issues.<br />\r\nFor queries related to refunds, double charges, or unrecognized transactions.<br />\r\nFor assistance with applying promo codes or gift cards.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "display_name": "About Service Details",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 50,
+                "display_name": "Cleaning Service Checklist",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 249,
+                        "question": "What is included in the cleaning service checklist?",
+                        "answer": {
+                            "text": "<p><strong>Ensuring Thoroughness and Quality in Every Clean!</strong></p>\r\n\r\n<p>When you book a cleaning service with Xpertfirst, you can expect a comprehensive and thorough job. Our professionals follow a detailed checklist to ensure every corner of your home is sparkling clean. Knowing what&#39;s included in our cleaning service helps you understand the value you&#39;re getting and ensures your expectations are met. Here&rsquo;s an overview of our standard cleaning service checklist.</p>\r\n\r\n<p><strong>Key Areas Covered in Xpertfirst&rsquo;s Cleaning Service:</strong></p>\r\n\r\n<p><strong>1. General Living Areas &amp; Bedrooms:</strong><br />\r\nDusting all surfaces, including furniture, shelves, and decor items.<br />\r\nVacuuming carpets and rugs, and mopping floors.<br />\r\nCleaning mirrors and glass surfaces.<br />\r\nWiping down doors and handles.<br />\r\nEmptying trash bins.</p>\r\n\r\n<p><strong>2. Kitchen:</strong><br />\r\nCleaning countertops and backsplashes.<br />\r\nWiping down exterior of appliances (fridge, microwave, oven).<br />\r\nScrubbing sinks and faucets.<br />\r\nMopping the floor.<br />\r\nTaking out the trash and recycling.</p>\r\n\r\n<p><strong>3. Bathrooms:</strong><br />\r\nSanitizing toilets, showers, tubs, and sinks.<br />\r\nCleaning mirrors and fixtures.<br />\r\nMopping floors and wiping down tiles.<br />\r\nRefilling toiletries and toilet paper (if provided).</p>\r\n\r\n<p><strong>4. Customizable Add-Ons:</strong><br />\r\nDepending on your specific needs, you can request additional services while booking such as balcony, cupboard, wardrobe, fridge cleaning or ironing &amp; folding.</p>\r\n\r\n<p><strong>What to Expect from Xpertfirst Professionals:</strong><br />\r\nProfessional and respectful handling of your belongings.<br />\r\nUse of high-quality cleaning supplies (eco-friendly options available upon request).<br />\r\nAdherence to any specific instructions or preferences you provide.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 51,
+                "display_name": "Expectation During a Service Visit",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 250,
+                        "question": "What can I anticipate during a service appointment?",
+                        "answer": {
+                            "text": "<p><strong>A Seamless and Professional Experience Every Time!</strong></p>\r\n\r\n<p>Booking a service with Xpertfirst means inviting our professionals into your home to provide high-quality services. Whether it&#39;s cleaning, salon services, healthcare, or any other offering, knowing what to expect during a service visit can help you prepare and ensure a smooth experience. Here&#39;s a guide to what you can expect when our team arrives at your doorstep.=</p>\r\n\r\n<p><strong>Your Xpertfirst Service Visit Experience:</strong></p>\r\n\r\n<p><strong>1. Arrival of Professionals:</strong><br />\r\nOur service professionals will arrive at the scheduled time. You&#39;ll receive a notification when they are on their way and when they arrive.<br />\r\nThey will be equipped with the necessary tools and materials for the service (if requested).</p>\r\n\r\n<p><strong>2. Service Execution:</strong><br />\r\nThe professional will start the service as per your booking details. For example, in a cleaning service, they will follow the cleaning checklist, or for salon services, they will set up their equipment.<br />\r\nThey will handle your property with care and respect your privacy and space.</p>\r\n\r\n<p><strong>3. Adherence to Preferences and Instructions:</strong><br />\r\nIf you have provided any specific instructions or preferences, our professionals will ensure they are followed closely.</p>\r\n\r\n<p><strong>4. Duration of the Service:</strong><br />\r\nThe service will last for the duration you booked. If there&rsquo;s a need to extend the time for any reason, our professional will inform you.</p>\r\n\r\n<p><strong>5. Quality and Professionalism:</strong><br />\r\nExpect high-quality service delivered in a professional manner. Our professionals are trained to be courteous and respectful at all times.</p>\r\n\r\n<p><strong>6. Completion and Feedback:</strong><br />\r\nOnce the service is completed, they will ensure everything is left tidy and clean.<br />\r\nYou&rsquo;ll have the opportunity to provide feedback on the service received through the Xpertfirst app.</p>\r\n\r\n<p><strong>Preparing for Your Service Visit:</strong><br />\r\nEnsure the service area is accessible.<br />\r\nProvide any special instructions beforehand through the app or directly to the professional upon arrival.<br />\r\nFeel free to ask questions or voice concerns during the service.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 52,
+                "display_name": "Healthcare Services Overview",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 251,
+                        "question": "Learn more about healthcare services",
+                        "answer": {
+                            "text": "<p><strong>Comprehensive Healthcare in the Comfort of Your Home!</strong></p>\r\n\r\n<p>Xpertfirst is dedicated to providing more than just home cleaning and maintenance services. We recognize the growing need for accessible healthcare, and thus, we offer a range of healthcare services that you can receive in the comfort and safety of your own home. From experienced nursing care to specialized physiotherapy, our healthcare services are designed to meet your medical needs conveniently and compassionately.</p>\r\n\r\n<p><strong>Range of Healthcare Services Offered by Xpertfirst:</strong></p>\r\n\r\n<p><strong>1. Home Nursing:</strong><br />\r\nProfessional nursing care for post-operative recovery, elderly care, or chronic illness management.<br />\r\nServices include medication administration, wound care, and health monitoring.</p>\r\n\r\n<p><strong>2. Physiotherapy:</strong><br />\r\nIn-home physiotherapy sessions with licensed therapists.<br />\r\nIdeal for rehabilitation, pain management, and improving mobility.</p>\r\n\r\n<p><strong>3. Elderly Care:</strong><br />\r\nCompassionate care for the elderly, including assistance with daily activities, companionship, and health monitoring.</p>\r\n\r\n<p><strong>4. Post-Operative Care:</strong><br />\r\nSpecialized care for post-surgery recovery, including wound care, pain management, and physical assistance.</p>\r\n\r\n<p><strong>5. Specialized Medical Services:</strong><br />\r\nDepending on your location, we may offer specialized medical services like speech therapy, occupational therapy, home doctor visits &amp; lab tests.</p>\r\n\r\n<p><strong>What Sets Xpertfirst Healthcare Services Apart:</strong><br />\r\nQualified Professionals: All healthcare providers are thoroughly vetted, qualified, and experienced.<br />\r\nPersonalized Care Plans: Services are tailored to meet the individual health needs and preferences of each client.<br />\r\nSafety and Comfort: Receive professional healthcare services without leaving the safety and comfort of your home.<br />\r\nFlexible Scheduling: Book services at times that are convenient for you and your family.</p>\r\n\r\n<p><strong>Booking Healthcare Services with Xpertfirst:</strong><br />\r\nEasily book healthcare services through the Xpertfirst app.<br />\r\nSpecify your requirements, and we will match you with a suitable healthcare professional.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 53,
+                "display_name": "Salon and Spa Services Overview",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 252,
+                        "question": "Learn more about Salon and Spa services",
+                        "answer": {
+                            "text": "<p><strong>Indulge in Luxury and Relaxation, Right at Home!</strong></p>\r\n\r\n<p>Xpertfirst extends beyond just home maintenance and cleaning services, offering a luxurious array of salon and spa services that you can enjoy in the comfort of your own home. We bring the pampering to you, whether you&#39;re in need of a quick beauty touch-up or a full day of relaxation. Here&rsquo;s an overview of the salon and spa services we offer, designed to rejuvenate and revitalize you without stepping out of your door.</p>\r\n\r\n<p><strong>Explore Our Range of Salon and Spa Services:</strong></p>\r\n\r\n<p><strong>1. Hair Care Services:</strong><br />\r\nProfessional haircuts, styling, coloring, and treatments for all hair types.<br />\r\nServices are provided by experienced hairstylists using quality products.</p>\r\n\r\n<p><strong>2. Nail Services:</strong><br />\r\nManicures and pedicures, including nail shaping, cuticle care, and polish application.<br />\r\nOptions for gel, acrylic, and other specialty nail treatments.</p>\r\n\r\n<p><strong>3. Skin Care Treatments:</strong><br />\r\nFacials and skin treatments tailored to your skin type and concerns.<br />\r\nUse of high-quality skincare products for a glowing, healthy complexion.</p>\r\n\r\n<p><strong>4. Massage Therapies:</strong><br />\r\nA variety of massage therapies including Swedish, deep tissue, and aromatherapy.<br />\r\nSessions aimed at relieving stress, improving circulation, and promoting relaxation.</p>\r\n\r\n<p><strong>5. Beauty Treatments:</strong><br />\r\nEyebrow shaping, eyelash extensions, and other beauty enhancements.<br />\r\nPerformed by skilled beauticians with attention to detail and care.</p>\r\n\r\n<p><strong>Why Choose Xpertfirst for Salon and Spa Services?</strong><br />\r\nConvenience: Experience top-notch salon and spa services without leaving your home.<br />\r\nProfessional Staff: All services are performed by qualified and experienced professionals.<br />\r\nCustomized Treatments: Tailor our services to your specific needs and preferences.<br />\r\nHygiene and Safety: Our professionals follow strict hygiene protocols for your safety and peace of mind.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 54,
+                "display_name": "Help with Service Issues",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 253,
+                        "question": "Can I get assistance with service-related problems?",
+                        "answer": {
+                            "text": "<p><strong>Prompt Resolution and Support for Any Service Concerns!</strong></p>\r\n\r\n<p>At Xpertfirst, we are committed to providing high-quality services. However, we understand that sometimes issues may arise, and it&rsquo;s crucial to have a reliable support system to address any concerns promptly. Whether it&#39;s a question about a service, feedback, or a specific issue, we are here to help. Here&rsquo;s how you can get assistance with any service issues you might encounter.</p>\r\n\r\n<p><strong>Addressing Service Issues with Xpertfirst:</strong></p>\r\n\r\n<p><strong>1. Identifying the Issue:</strong><br />\r\nClearly identify what aspect of the service did not meet your expectations. This could be related to the quality of work, professional behavior, or something else.</p>\r\n\r\n<p><strong>2. Immediate Communication:</strong><br />\r\nIf the issue occurs during the service, communicate it to the service professional immediately. Many times, issues can be resolved on the spot.</p>\r\n\r\n<p><strong>3. Contact Customer Support:</strong><br />\r\nFor issues that cannot be resolved directly or occur after the service, contact Xpertfirst&rsquo;s customer support via the below option.</p>\r\n\r\n<p><strong>4. Provide Detailed Information:</strong><br />\r\nWhen contacting support, provide as much detail as possible about the issue, including the service date, the nature of the problem, and any other relevant information.</p>\r\n\r\n<p><strong>5. Resolution Process:</strong><br />\r\nOur customer support team will investigate the issue, liaising with the service professionals if necessary, to understand and resolve the concern.</p>\r\n\r\n<p><strong>6. Follow-Up and Feedback:</strong><br />\r\nExpect follow-up communication from our team. Your feedback is vital for us to improve our services.</p>\r\n\r\n<p><strong>How Xpertfirst Ensures Service Quality:</strong><br />\r\nRegular Training: Our professionals undergo regular training to maintain high service standards.<br />\r\nQuality Checks: We perform periodic quality checks and gather customer feedback for continuous improvement.<br />\r\nTransparent Policies: Our service policies are designed to protect the interests of our customers.</p>\r\n\r\n<p>Your satisfaction is our top priority at Xpertfirst. We take service issues seriously and strive to resolve them swiftly and efficiently. Our customer support team is dedicated to ensuring that any concerns you have are addressed to your satisfaction, keeping your Xpertfirst experience positive and stress-free.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 55,
+                "display_name": "Service Falls Short of Expectations",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 254,
+                        "question": "Steps to take when a service falls short of expectations",
+                        "answer": {
+                            "text": "<p><strong>Ensuring Your Satisfaction with Every Service!</strong></p>\r\n\r\n<p>At Xpertfirst, we strive to deliver the highest quality services to all our customers. However, we understand that there may be times when a service might not meet your expectations. It&rsquo;s important to know what steps to take in such situations to ensure your concerns are addressed promptly and effectively. Here&rsquo;s a guide on what to do if you find a service from Xpertfirst unsatisfactory.</p>\r\n\r\n<p><strong>Steps to Follow When a Service Doesn&rsquo;t Meet Expectations:</strong></p>\r\n\r\n<p><strong>1. Identify the Issue Clearly:</strong><br />\r\nPinpoint what aspect of the service did not meet your expectations. It could be related to the quality of work, timeliness, professional behavior, or something else.</p>\r\n\r\n<p><strong>2. Contact Xpertfirst Customer Support:</strong><br />\r\nReach out to our customer support team as soon as possible. You can contact us through the Xpertfirst app or our website, providing details of the service and the nature of your concern.</p>\r\n\r\n<p><strong>3. Provide Details:</strong><br />\r\nShare specific details about the service, including the date, time, and a thorough description of the issue. Include any photos or other documentation you have.</p>\r\n\r\n<p><strong>4. Await a Response:</strong><br />\r\nOur customer support team will review your complaint, liaise with the service professionals if necessary, and work towards a resolution.<br />\r\nWe aim to respond promptly and may offer a re-service, refund, or other compensation, depending on the situation.</p>\r\n\r\n<p><strong>Xpertfirst&rsquo;s Commitment to Quality:</strong><br />\r\nContinuous Improvement: We take customer feedback seriously and use it to improve our services.<br />\r\nProfessional Training: Regular training is provided to our staff to ensure high service standards.<br />\r\nCustomer-Centric Policies: Our policies are designed with your satisfaction in mind.</p>\r\n\r\n<p>Your experience with Xpertfirst should always be positive and fulfilling. If a service does not meet your expectations, we are committed to making it right. Contacting us with your concerns allows us to address and rectify any issues, ensuring that your experience with Xpertfirst is nothing short of excellent.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 56,
+                "display_name": "Damage or Safety Concerns",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 255,
+                        "question": "I have concerns regarding damage or safety",
+                        "answer": {
+                            "text": "<p><strong>Prioritizing Safety and Accountability in Every Service!</strong></p>\r\n\r\n<p>At Xpertfirst, we are committed to providing services that are not only of high quality but also safe and secure for our customers and their property. Despite our rigorous standards, we acknowledge that incidents involving damage or safety concerns can occasionally occur. It&rsquo;s crucial for us to address these incidents swiftly and effectively. Here&rsquo;s a guide on how to report and resolve any damage or safety concerns with Xpertfirst.</p>\r\n\r\n<p><strong>How to Handle Damage or Safety Concerns:</strong></p>\r\n\r\n<p><strong>1. Immediate Assessment:</strong><br />\r\nIf you notice any damage or safety issues during or after a service, assess the situation immediately for the extent and nature of the concern.</p>\r\n\r\n<p><strong>2. Documentation:</strong><br />\r\nDocument the issue with photos or videos. This could be damage to property or any situation that poses a safety concern.</p>\r\n\r\n<p><strong>3. Report Promptly:</strong><br />\r\nContact Xpertfirst&rsquo;s customer support as soon as possible via the below option. The quicker an issue is reported, the faster it can be addressed.</p>\r\n\r\n<p><strong>4. Provide Detailed Information:</strong><br />\r\nWhen reporting the issue, include detailed descriptions, the date and time of the service, and any relevant documentation (photos, videos).</p>\r\n\r\n<p><strong>5. Await Response and Action:</strong><br />\r\nOur team will review your report, conduct an investigation if necessary, and propose a resolution. This may include repairs, compensation, or other appropriate actions.</p>\r\n\r\n<p>The security of your property is paramount at Xpertfirst. In the rare event of damage or a safety concern, we assure you of a responsive and responsible approach to resolving the issue. Our commitment to accountability and customer satisfaction guides our actions in addressing such concerns.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 57,
+                "display_name": "Lost Policy",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 256,
+                        "question": "Steps to follow if you've lost an item",
+                        "answer": {
+                            "text": "<p><strong>Addressing Concerns for Lost Items with Care and Promptness!</strong></p>\r\n\r\n<p>At Xpertfirst, we recognize that the possibility of items being misplaced or lost during service visits, though rare, can be a concern for our customers. To address such situations effectively and to provide peace of mind, we have established a lost policy dedicated to helping you recover any lost items during our service provision. Here&rsquo;s a comprehensive look at how our lost policy works to assist you in these situations.</p>\r\n\r\n<p><strong>Xpertfirst&rsquo;s Approach to Handling Lost Items:</strong></p>\r\n\r\n<p><strong>1. Reporting Lost Items:</strong></p>\r\n\r\n<p>If you discover that an item is missing after receiving a service, notify Xpertfirst&rsquo;s customer support team immediately.<br />\r\nOffer a detailed description of the lost item, including its characteristics, approximate value, and the last known location, to aid the search.</p>\r\n\r\n<p><strong>2. Investigation Process:</strong><br />\r\nOur team initiates a thorough investigation by coordinating with the assigned professional. We check all possible areas where the item could have been misplaced or left behind.</p>\r\n\r\n<p><strong>3. Communication and Updates:</strong><br />\r\nXpertfirst maintains transparent and continuous communication with you throughout the investigation process.<br />\r\nWe provide updates as we progress with the search for your lost item.</p>\r\n\r\n<p><strong>4. Resolution:</strong><br />\r\nIf the item is not recovered, we discuss further steps and possible compensations based on the situation and our terms of service.</p>\r\n\r\n<p><strong>Our Commitment in Lost Item Situations:</strong><br />\r\nPrompt Response: We understand the urgency and sensitivity of such situations and respond promptly.<br />\r\nResponsibility: Xpertfirst takes responsibility for the conduct of our professionals and ensures thorough investigation.<br />\r\nCustomer Support: Our dedicated customer support team is there to assist and provide necessary guidance throughout the process.</p>",
+                            "buttons": [
+                                "chat_with_us"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "display_name": "Promotions and Discounts",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 58,
+                "display_name": "Current Promotions",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 260,
+                        "question": "What promotions are currently in effect?",
+                        "answer": {
+                            "text": "<p><strong>Experience More with Exciting Offers and Deals!</strong></p>\r\n\r\n<p>At Xpertfirst, we continually strive to enhance your experience with us through various promotions and special offers. Our current promotions are crafted to provide you with more value, more services, and more reasons to choose Xpertfirst for your home and personal care needs. Whether you&rsquo;re a long-time customer or new to our platform, these promotions are designed to make our services even more accessible and enjoyable.</p>\r\n\r\n<p><strong>Exploring Xpertfirst&rsquo;s Current Promotions:</strong></p>\r\n\r\n<p><strong>1. Welcome Discount for New Customers:</strong><br />\r\nIf you&rsquo;re new to Xpertfirst, we welcome you with a special discount on your first booking. Sign up and enjoy a reduced rate on your initial service as a warm welcome to our community.</p>\r\n\r\n<p><strong>2. Seasonal Offers:</strong><br />\r\nKeep an eye out for seasonal promotions, such as special discounts during festive periods, summer deals, or winter specials, which offer great savings on various services.</p>\r\n\r\n<p><strong>3. Bundle Deals:</strong><br />\r\nTake advantage of our bundle deals where you can get multiple services at a discounted rate. Perfect for comprehensive salon &amp; spa services.</p>\r\n\r\n<p><strong>4. Referral Bonuses:</strong><br />\r\nOur referral program continues to reward you for every new customer you bring to Xpertfirst. Share your referral code, and both you and your friend can enjoy discounts.</p>\r\n\r\n<p><strong>5. Limited-Time Specials:</strong><br />\r\nFrom time to time, we roll out limited-time offers on specific services. These can range from discounts on cleaning services to special pricing on beauty treatments.</p>\r\n\r\n<p><strong>Staying Updated with Our Promotions:</strong><br />\r\nXpertfirst App: The easiest way to stay updated with our current promotions is through the Xpertfirst app. Check the promotions on the home page regularly for new deals.<br />\r\nNewsletter: Subscribe to our newsletter to receive updates on the latest offers and exclusive deals directly in your inbox.<br />\r\nSocial Media: Follow us on social media for real-time updates on promotions and special events.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 59,
+                "display_name": "Recurring Services Discounts",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 261,
+                        "question": "Are there any discounts available for recurring services?",
+                        "answer": {
+                            "text": "<p><strong>Enjoy Consistent Savings with Regular Bookings!</strong></p>\r\n\r\n<p>At Xpertfirst, we value our loyal customers who regularly use our services. To show our appreciation and to make regular bookings more rewarding, we offer discounts on recurring services. Whether you need regular home cleaning, consistent salon visits, or ongoing healthcare services, our recurring services discounts are designed to provide you with quality services at more affordable rates. Here&rsquo;s what you need to know about our recurring services discounts and how to benefit from them.</p>\r\n\r\n<p><strong>Maximizing Savings with Recurring Services:</strong></p>\r\n\r\n<p><strong>1. Understanding Recurring Services Discounts:</strong><br />\r\nThese discounts are available to customers who schedule regular services with Xpertfirst.<br />\r\nThe more frequently you book a particular service, the greater the savings you can enjoy.</p>\r\n\r\n<p><strong>2. Eligibility for Discounts:</strong><br />\r\nTo be eligible for these discounts, you need to set up a recurring booking schedule for a service, such as weekly, or bi-weekly appointments.</p>\r\n\r\n<p><strong>3. Setting Up Recurring Bookings:</strong><br />\r\nWhen booking a service on the Xpertfirst app, opt for a recurring schedule. Choose the frequency that suits your needs.<br />\r\nThe discount will be automatically applied to your recurring bookings.</p>\r\n\r\n<p><strong>5. Flexibility in Scheduling:</strong><br />\r\nWhile enjoying the benefits of recurring service discounts, you still have the flexibility to reschedule or cancel appointments as needed, in accordance with our cancellation policy.</p>\r\n\r\n<p><strong>Benefits of Recurring Services Discounts:</strong><br />\r\nCost-Effective: Regular use of services becomes more affordable.<br />\r\nConsistency: Ensures regularity in service provision, maintaining the high standards of service you expect from Xpertfirst.<br />\r\nConvenience: Automatic scheduling and billing save you time and hassle.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 60,
+                "display_name": "Referral Program",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 262,
+                        "question": "Explanation about the referral program",
+                        "answer": {
+                            "text": "<p><strong>Sharing the Joy of Xpertfirst with Rewards for You and Your Friends!</strong></p>\r\n\r\n<p>Xpertfirst is more than just a home services app; it&rsquo;s a community where the joy of high-quality, convenient services can be shared. Our referral program is designed to reward our loyal customers and welcome new ones into the Xpertfirst family. Here&rsquo;s how you can participate in our referral program and enjoy benefits for both you and your friends.</p>\r\n\r\n<p><strong>Participating in the Xpertfirst Referral Program:</strong></p>\r\n\r\n<p><strong>1. Understanding the Referral Program:</strong><br />\r\nOur referral program allows you to invite friends to use Xpertfirst services. When your friends sign up and book a service using your referral code, both you and they receive rewards.</p>\r\n\r\n<p><strong>2. Accessing Your Referral Code:</strong><br />\r\nFind your unique referral code in the Xpertfirst app. Go to your profile and look for the &lsquo;Referral Program&rsquo; or &lsquo;Invite Friends&rsquo; section.</p>\r\n\r\n<p><strong>3. Sharing the Referral Code:</strong><br />\r\nShare your referral code with friends and family through social media, email, or direct messaging.</p>\r\n\r\n<p><strong>4. Rewards for You and Your Friend:</strong><br />\r\nWhen a friend uses your referral code to book a service, they get a discount on their first booking.<br />\r\nFor every successful referral, you also receive a reward, typically in the form of a discount or credit towards your next service.</p>\r\n\r\n<p><strong>5. Tracking Your Referrals:</strong><br />\r\nKeep track of your referrals and rewards directly in the Xpertfirst app.</p>\r\n\r\n<p><strong>Benefits of the Xpertfirst Referral Program:</strong><br />\r\nSpread the Word, Reap the Rewards: Share your positive experiences with Xpertfirst and be rewarded for it.<br />\r\nSavings for Everyone: Each successful referral brings savings for both you and your friend.<br />\r\nEasy to Share, Easy to Use: Our referral process is simple and user-friendly, making sharing and redeeming rewards effortless.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "display_name": "Feedback and Complaints",
+        "slug": "help_category",
+        "options": {
+            "title": "Feedback and Complaints",
+            "categories": [
+                {
+                    "id": 61,
+                    "display_name": "How to Provide Feedback",
+                    "slug": "help_category",
+                    "questions": [
+                        {
+                            "id": 257,
+                            "question": "How can I provide my feedback or share an experience?",
+                            "answer": {
+                                "text": "<p><strong>Your Insights Shaping a Better Xpertfirst Experience!</strong></p>\r\n\r\n<p>At Xpertfirst, we value your feedback as it plays a crucial role in helping us enhance our services and ensure customer satisfaction. Whether it&#39;s praise for a job well done, constructive criticism, or suggestions for improvement, we welcome your insights. Here&rsquo;s a simple guide on how you can provide feedback on your Xpertfirst experience, enabling us to continually improve and tailor our services to meet your needs better.</p>\r\n\r\n<p><strong>Steps to Provide Feedback on Xpertfirst:</strong></p>\r\n\r\n<p><strong>1. Directly After Service Completion:</strong><br />\r\nAfter the completion of a service, you will usually receive a prompt on the Xpertfirst app asking you to rate your experience and leave feedback.<br />\r\nThis is the most immediate way to share your thoughts while the details of the service are fresh in your mind.</p>\r\n\r\n<p><strong>2. Through the Xpertfirst App:</strong><br />\r\nOpen the Xpertfirst app and go to your booking history.<br />\r\nSelect the service you want to provide feedback on and choose the option to leave a review or rating.<br />\r\nBe as detailed as possible in your feedback, mentioning what you liked or what could be improved.</p>\r\n\r\n<p><strong>3. Contact Customer Support:</strong><br />\r\nIf you prefer, you can also provide feedback by contacting our customer support team. This can be done through the below option.</p>\r\n\r\n<p><strong>Why Your Feedback Matters:</strong><br />\r\nContinuous Improvement: Helps us understand what works well and where we need to improve.<br />\r\nCustomer Satisfaction: Your feedback directly influences the quality of service we offer, ensuring we meet and exceed customer expectations.<br />\r\nService Customization: This allows us to tailor our services more closely to the specific needs and preferences of our customers.</p>\r\n\r\n<p>Your voice is important to us at Xpertfirst. By providing feedback, you contribute to shaping an enhanced service experience not just for yourself, but for all our customers. We encourage you to share your thoughts and suggestions after each service, as your input is invaluable in our pursuit of excellence.</p>",
+                                "buttons": [
+                                    "chat_with_us"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "display_name": "How to File a Complaint",
+                    "slug": "help_category",
+                    "questions": [
+                        {
+                            "id": 263,
+                            "question": "What should I do if my service professional is delayed?",
+                            "answer": {
+                                "text": "<p>We understand that your time is valuable, and we apologize for any inconvenience caused by the delay. If your service professional is running late, please don&#39;t worry. Our team is here to help you. Please chat with us to get real-time updates and assistance.</p>",
+                                "buttons": [
+                                    "chat_with_us"
+                                ]
+                            }
+                        },
+                        {
+                            "id": 264,
+                            "question": "What should I do if I receive a different professional than expected?",
+                            "answer": {
+                                "text": "<p>At Xpertfirst, we strive to match you with the right service professional for your needs. If you receive a different professional than expected, we sincerely apologize for any confusion or inconvenience. Please chat with us so we can address your concerns promptly and ensure you receive the service you deserve.</p>",
+                                "buttons": [
+                                    "chat_with_us"
+                                ]
+                            }
+                        },
+                        {
+                            "id": 265,
+                            "question": "What is the process for reporting lost or damaged item?",
+                            "answer": {
+                                "text": "<p>We are truly sorry if any of your belongings have been lost or damaged during service. Your satisfaction and peace of mind are our top priorities. Please create a support ticket and provide detailed information about the incident. Our team will investigate the matter and get back to you as soon as possible.</p>",
+                                "buttons": [
+                                    "create_support_ticket"
+                                ]
+                            }
+                        },
+                        {
+                            "id": 266,
+                            "question": "How do I provide feedback about the service?",
+                            "answer": {
+                                "text": "<p>Your feedback helps us improve and provide better services. If you have any comments or suggestions about your experience, please create a support ticket. We value your input and will use it to enhance our services.</p>\r\n\r\n<p>&nbsp;</p>",
+                                "buttons": [
+                                    "create_support_ticket"
+                                ]
+                            }
+                        },
+                        {
+                            "id": 267,
+                            "question": "I have a different complaint, how can I raise it?",
+                            "answer": {
+                                "text": "<p>We are here to listen and address any concerns you may have. If you have a different complaint, please create a support ticket with details about the issue. Our team is committed to resolving your concerns and ensuring your satisfaction.</p>",
+                                "buttons": [
+                                    "create_support_ticket"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 63,
+                    "display_name": "Resolution Process for Complaints",
+                    "slug": "help_category",
+                    "questions": [
+                        {
+                            "id": 259,
+                            "question": "What is the process for resolving complaints?",
+                            "answer": {
+                                "text": "<p><strong>Addressing Your Concerns with Efficiency and Fairness!</strong></p>\r\n\r\n<p>At Xpertfirst, we understand that despite our best efforts, there may be occasions when our services do not meet your expectations, leading to complaints. We have a structured resolution process to address such instances, ensuring that every complaint is resolved efficiently and fairly. This process is designed to maintain trust and ensure the satisfaction of our customers. Here&rsquo;s how we handle and resolve complaints at Xpertfirst.</p>\r\n\r\n<p><strong>Xpertfirst&#39;s Complaint Resolution Process:</strong></p>\r\n\r\n<p><strong>1. Acknowledgment of Complaint:</strong><br />\r\nOnce your complaint is received, we will acknowledge it promptly, confirming that we are looking into the matter.</p>\r\n\r\n<p><strong>2. Assessment and Investigation:</strong><br />\r\nOur customer support team will assess your complaint and may conduct an investigation. This might involve reviewing service records, speaking with the professional, and examining any evidence provided.</p>\r\n\r\n<p><strong>3. Communication During Resolution:</strong><br />\r\nWe believe in keeping you informed throughout the resolution process. Our team may reach out to you within 24 hours of you filing the complaint to request further information or to seek clarification on the details.</p>\r\n\r\n<p><strong>4. Resolution Proposal:</strong><br />\r\nAfter a thorough investigation, we will propose a resolution within less than 72 hours. This could involve recompense for the service, corrective actions, or other appropriate measures to address your concern.</p>\r\n\r\n<p><strong>5. Implementation of the Resolution:</strong><br />\r\nOnce the resolution is agreed upon, we will implement it promptly. This may include scheduling a re-service, issuing a refund or credit, or taking action to prevent future occurrences.</p>\r\n\r\n<p><strong>6. Follow-Up:</strong><br />\r\nAfter the resolution has been implemented, we may follow up with you to ensure that you are satisfied with the outcome and to gather feedback on the resolution process.</p>\r\n\r\n<p><strong>Our Commitment to the Resolution Process:</strong><br />\r\nFair and Impartial Handling: Every complaint is treated with seriousness and impartiality.<br />\r\nPrompt and Effective Resolutions: We aim to resolve complaints in a timely and effective manner.<br />\r\nLearning and Improvement: Complaints are opportunities for us to learn and improve our services.</p>\r\n\r\n<p>At Xpertfirst, we are committed to resolving any service-related complaints to your satisfaction. Our structured resolution process is an integral part of our commitment to maintaining high standards of service and customer satisfaction. Rest assured, we are here to listen and respond to your concerns effectively.</p>",
+                                "buttons": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "display_name": "Legal and Privacy",
+        "slug": "help_category",
+        "options": [
+            {
+                "id": 29,
+                "display_name": "Terms of Service",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 228,
+                        "question": "What are the Terms of Service?",
+                        "answer": {
+                            "text": "<p>Welcome to Xpertfirst! By using our services or website, you&#39;re agreeing to our Terms and Conditions, which, together with our Privacy Policy, define our relationship with you.</p>\r\n\r\n<ul>\r\n\t<li>Content and Changes: Information on our website is for service explanation and implementation, subject to change without notice.</li>\r\n\t<li>Cookies and Data Use: We use cookies, which may store your personal information for specified uses.</li>\r\n\t<li>Terms Updates: Xpertfirst reserves the right to modify these terms, so please review them periodically.</li>\r\n\t<li>Liability and Limitations: Xpertfirst is not liable for failures beyond our control, including technological issues. We don&#39;t form partnerships or legal agencies with users.</li>\r\n\t<li>Intellectual Property: All website materials are owned or licensed by us, and unauthorized use is prohibited.</li>\r\n\t<li>External Links: We provide external links for convenience, without responsibility for their content.</li>\r\n\t<li>Jurisdiction: Use of our website and disputes arising from it are subject to UAE Main Courts laws.</li>\r\n\t<li>Booking and Payment: Fees paid are generally non-refundable, and Xpertfirst may update pricing. You are responsible for taxes except those on our income.</li>\r\n\t<li>Rate Changes: We can change rates, posting changes on our website ten days in advance, though not required for temporary promotions or rate reductions.</li>\r\n\t<li>Service Provider Conduct: We are not liable for the unlawful acts of service professionals or users, though we conduct background checks.</li>\r\n\t<li>User Responsibility: Users should exercise caution for personal safety and property and are free from our liability for any damages or missing items during services.</li>\r\n\t<li>Payment Method: We charge through specified methods (e.g., credit card, cash) on our website.</li>\r\n\t<li>Booking Cancellation: Cancel bookings with a minimum of 24 hours&#39; notice to avoid a possible charge.</li>\r\n\t<li>User Age Restriction: Users must not be minors (under 18) to register or transact on our website.</li>\r\n\t<li>Damage Responsibility: We may penalize service providers for damages but are not responsible for client&#39;s belongings during the service session.</li>\r\n\t<li>Terms Enforcement: If any terms are unenforceable, they will be limited to maintain the Terms&#39; overall force.</li>\r\n\t<li>Assignment Rights: Xpertfirst may transfer these Terms without consent.</li>\r\n\t<li>OFAC Compliance: We do not provide services to OFAC and sanctioned countries.</li>\r\n\t<li>Communication: We use various channels, including WhatsApp and email, for communication including appointment and marketing updates.</li>\r\n\t<li>Service Scope: Xpertfirst aggregates various home services provided by licensed third parties.</li>\r\n\t<li>Medical Data and Liability: For Lab Test services, Xpertfirst is an aggregator, and medical data is handled by healthcare facilities, which bear medical liability.</li>\r\n\t<li>Payment and Refund Policy: Payments accepted online using Visa and MasterCard in AED. Refunds are processed in the original mode of payment.</li>\r\n\t<li>Quality Assurance: We conduct regular inspections and follow-ups to ensure service quality.</li>\r\n\t<li>Issue Reporting: Report missing/stolen items within 48 hours and damaged items within 24 hours.</li>\r\n</ul>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "display_name": "Privacy Policy",
+                "slug": "help_category",
+                "questions": [
+                    {
+                        "id": 229,
+                        "question": "How does the Privacy Policy work?",
+                        "answer": {
+                            "text": "<p><strong>Your Privacy Matters to Us!</strong></p>\r\n\r\n<p>Welcome to Xpertfirst! By using our website and services, you consent to our privacy practices and cookie usage as detailed in this policy.</p>\r\n\r\n<ul>\r\n\t<li>Information Collection: We gather data like IP address, site usage, location, browser details, transaction history, and personal details for service registration and communication.</li>\r\n\t<li>Cookies Usage: Our website employs cookies to enhance user experience and may store your personal information for specific purposes.</li>\r\n\t<li>Terms Updates: We reserve the right to modify these terms, so regular review is advised.</li>\r\n\t<li>No Liability for Certain Failures: We are not liable for failures beyond our control or for the actions of website users.</li>\r\n\t<li>Intellectual Property: All website materials are our property or licensed to us, with reproduction strictly prohibited.</li>\r\n\t<li>External Links Disclaimer: We are not responsible for the content of external websites linked on our site.</li>\r\n\t<li>Jurisdiction and Law Compliance: Usage of our website is subject to UAE Main Courts laws.</li>\r\n\t<li>Service Bookings and Payments: Fees for services booked through Xpertfirst are typically non-refundable, with prices subject to change.</li>\r\n\t<li>Credit Card Transactions: Credit card details are not stored by Xpertfirst, nor shared with third parties.</li>\r\n\t<li>Disclosure of Personal Information: We disclose your information as necessary within our company and may disclose it by law, for legal proceedings, or for fraud prevention.</li>\r\n\t<li>International Data Transfers: Your data may be transferred and stored in various countries for processing in line with this policy.</li>\r\n\t<li>Data Security Measures: We implement security measures for data protection but cannot guarantee absolute security online.</li>\r\n\t<li>Policy Amendments: Changes to this policy will be updated on our website and may be communicated via email.</li>\r\n\t<li>Your Rights: You have rights regarding access to your personal data, subject to specific conditions.</li>\r\n\t<li>Opting Out of Marketing: You can opt out of marketing communications by emailing us.</li>\r\n\t<li>Third-Party Websites: We are not liable for the privacy practices of other websites linked on our site.</li>\r\n\t<li>Data Correction Requests: Inform us if your personal data needs updating.</li>\r\n\t<li>Data Collection Specifics: We collect phone numbers, email addresses, and addresses for service booking purposes. You can request data deletion via email.</li>\r\n</ul>\r\n\r\n<p>Remember, your privacy is of utmost importance to us at Xpertfirst, and we are committed to safeguarding it while providing you with top-notch service.</p>",
+                            "buttons": []
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
