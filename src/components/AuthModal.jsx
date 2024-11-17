@@ -58,6 +58,7 @@ const AuthModal = ({ isOpen, onClose }) => {
           // Set the user's data
           setUSER(user);
           localStorage.setItem("buildbazm_user", JSON.stringify(user));
+          localStorage.setItem("buildbazm_token", response.data?.token);
           onClose();
         }
       } catch (error) {
@@ -89,6 +90,7 @@ const AuthModal = ({ isOpen, onClose }) => {
         // Set the user's data
         setUSER(user);
         localStorage.setItem("buildbazm_user", JSON.stringify(user));
+          localStorage.setItem("buildbazm_token", response.data?.token);
         onClose();
       }
     } catch (error) {
