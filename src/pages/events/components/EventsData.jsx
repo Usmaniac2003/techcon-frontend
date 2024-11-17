@@ -2,10 +2,15 @@ import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { getApi } from "../../../services/api";
 import Skeleton from "react-loading-skeleton";
+import PreviewEvent from "./EventPreview";
 
 const EventsData = ({ data }) => {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [previewModal, setPreviewModal] = useState({
+    isOpen: false, 
+    data: {}
+  })
 
   const getEvents = async () => {
     try {
@@ -36,17 +41,18 @@ const EventsData = ({ data }) => {
       <p className="text-gray-600 mb-8">{data?.description}</p>
       {loading ? (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Skeleton height="80px" />
-          <Skeleton height="80px" />
-          <Skeleton height="80px" />
-          <Skeleton height="80px" />
-          <Skeleton height="80px" />
-          <Skeleton height="80px" />
+          <Skeleton height="230px" />
+          <Skeleton height="230px" />
+          <Skeleton height="230px" />
+          <Skeleton height="230px" />
+          <Skeleton height="230px" />
+          <Skeleton height="230px" />
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {events.map((event) => (
             <div
+            
               key={event._id}
               className="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transform transition duration-300"
             >
@@ -64,11 +70,18 @@ const EventsData = ({ data }) => {
                 <p className="text-sm text-gray-600 font-bold mt-4">
                   Venue: {event?.venue}
                 </p>
+
+                <button onClick={() => setPreviewModal({
+                    isOpen: true, 
+                    data: event
+                })} className="bg-primary text-white p-2 rounded px-8 mt-3">Book Now</button>
               </div>
             </div>
           ))}
         </div>
       )}
+
+      {previewModal?.isOpen && <PreviewEvent isOpen={previewModal.isOpen} onClose={() => setPreviewModal({isOpen: false, data: {}})} data={previewModal?.data}/>}
     </div>
   );
 };
