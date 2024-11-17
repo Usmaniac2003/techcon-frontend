@@ -31,7 +31,7 @@ const UserMenuList = ({ handleCloseUserMenu }) => {
     {
       icon: <BiHelpCircle size={18} />,
       label: t("Help"),
-      link: "/my-account/help",
+      link: "/help",
     },
   ];
   return (

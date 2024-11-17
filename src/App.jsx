@@ -15,6 +15,7 @@ import MyAccount from "./pages/my-account/index.jsx";
 import ForgotPassword from "./pages/forgotPassword/index.jsx";
 import ResetPassword from "./pages/resetPassword/index.jsx";
 import "./i18n.js";
+import Help from "./components/my-account/Help.jsx";
 
 const libraries = ["places"];
 
@@ -104,6 +105,7 @@ const App = () => {
         {user?._id && (
           <Route path="/my-account/:page" element={<MyAccount />} />
         )}
+        <Route path="/help" element={<Help/>}/>
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/resetpassword" element={<ResetPassword />} />
         <Route path="*" element={<Error404 />} />

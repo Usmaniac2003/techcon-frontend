@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import HelpData from "../../data/help.json";
 import { FaAngleRight } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 import { useSearchParams } from "react-router-dom";
 import { useEffect, useState } from "react";

@@ -14,9 +14,9 @@ const CTAButton = () => {
             </button>
             {/* Circle rings */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="absolute w-40 h-40 rounded-full bg-pink-600 opacity-20 group-hover:animate-ping"></div>
-              <div className="absolute w-52 h-52 rounded-full bg-pink-600 opacity-10 group-hover:animate-ping"></div>
-              <div className="absolute w-64 h-64 rounded-full bg-pink-600 opacity-5 group-hover:animate-ping"></div>
+              <div className="absolute w-40 h-40 rounded-full bg-white opacity-20 group-hover:animate-ping"></div>
+              <div className="absolute w-52 h-52 rounded-full bg-white opacity-10 group-hover:animate-ping"></div>
+              <div className="absolute w-64 h-64 rounded-full bg-white opacity-5 group-hover:animate-ping"></div>
             </div>
           </div>
         </div>

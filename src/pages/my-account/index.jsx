@@ -14,7 +14,6 @@ const pages = {
     "profile": <Profile/>,
     "bookings": <Bookings/>, 
     "payment-methods": <PaymentMethods/>, 
-    "help": <Help/>
 }
   return (
     <>

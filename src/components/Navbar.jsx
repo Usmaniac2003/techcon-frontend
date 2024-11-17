@@ -87,6 +87,9 @@ const Navbar = () => {
             </p>
           </div>
         )}
+        <div className="w-[180px] flex justify-center text-center">
+          <Link to={"/help"} className="text-primary font-bold">Need help?</Link>
+        </div>
         <div className="flex items-center navbar">
           <div className="ml-4">
             <Menu closeOnSelect>

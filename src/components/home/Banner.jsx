@@ -11,7 +11,7 @@ const Banner = () => {
         style={{ zIndex: 5 }}
         className="text-white h-full justify-center flex items-center flex-col"
       >
-        <h1 className="text-3xl text-center">Your Gateway to</h1>
+        <h1 className="text-3xl text-center italic">Your Gateway to</h1>
 
         <div className="flex text-center items-center justify-center">
           <h1
@@ -26,7 +26,7 @@ const Banner = () => {
       </div>
       <div
         style={{ zIndex: 2 }}
-        className="absolute w-full h-full top-0 left-0 bg-[#cc24594d]"
+        className="absolute w-full h-full top-0 left-0 bg-[#cc24596e]"
       ></div>
       <video
         style={{ zIndex: 0 }}
