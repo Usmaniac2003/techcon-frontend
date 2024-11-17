@@ -42,8 +42,8 @@ const Bookings = () => {
   const fetchData = async () => {
     try {
       setLoading(true);
-      const data = await getApi("api/leads/getByCustomer/" + USER?._id);
-      setData(data.data);
+      const response = await getApi("api/events/bookings/" + USER?._id);
+      setData(response.data?.data);
     } catch (error) {
       console.log(error);
       toast.error("Something went wrong");
@@ -52,7 +52,7 @@ const Bookings = () => {
   };
 
   useEffect(() => {
-    // fetchData();
+    fetchData();
   }, []);
 
   return (
@@ -75,32 +75,30 @@ const Bookings = () => {
                 data?.length === 0 ? (
                   <p>{t("No bookings found")}</p>
                 ) : (
-                  data.map((lead) => {
+                  data.map((event) => {
                     return (
                       <div
-                        key={lead?._id}
+                        key={event?._id}
                         className="border shadow rounded-lg p-3 w-full mb-3"
                       >
                         <div className="flex items-center justify-between">
-                          <p className="font-bold text-lg">{lead?.type}</p>
+                          <p className="font-bold text-lg">{event?.event?.name}</p>
                           <span
                             style={{
-                              color: statuses[lead?.status]?.text,
-                              background: statuses[lead?.status]?.bg,
+                              color: statuses[event?.status?.toLowerCase()]?.text,
+                              background: statuses[event?.status?.toLowerCase()]?.bg,
                             }}
                             className={` text-sm font-bold rounded-md py-1 px-2`}
                           >
-                            {statuses[lead?.status]?.label || "Pending"}
+                            {statuses[event?.status?.toLowerCase()]?.label || "Pending"}
                           </span>
                         </div>
-                        <div className="mt-2">
+                          <p className="font text-sm">{event?.event?.venue}</p>
+                        <div className="mt-5 flex items-center justify-between">
                           <p className="text-gray-400">
-                            {formatDate(new Date(lead?.dateAndTime?.date))}{" "}
-                            {", "} {lead?.dateAndTime?.startTime}
+                            {formatDate(new Date(event?.event?.date))}{" "}
                           </p>
-                        </div>
-                        <div className="mt-3">
-                          <span className="underline">Auto Assign</span>
+                          <span className="font-bold text-primary">{event?.total_price}Rs</span>
                         </div>
                       </div>
                     );

@@ -11,10 +11,15 @@ const statuses = {
     text: "#a16207",
     bg: "#fef08a",
   },
-  approved: {
-    label: "Approved",
+  confirmed: {
+    label: "Confirmed",
     text: "#3bb500",
     bg: "#9fff9f",
+  },
+  cancelled: {
+    label: "Cancelled",
+    text: "white",
+    bg: "red",
   },
 };
 
